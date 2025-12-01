@@ -1,0 +1,3 @@
+/home/karen/proyecto_interciclo/build/CMakeFiles/ct_processor.dir
+/home/karen/proyecto_interciclo/build/CMakeFiles/edit_cache.dir
+/home/karen/proyecto_interciclo/build/CMakeFiles/rebuild_cache.dir

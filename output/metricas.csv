@@ -1,0 +1,4 @@
+Slice,PSNR_dB,SSIM,Noise_STD,Area_Pulmones,Area_Corazon,Area_Huesos,Tiempo_ms
+203,0,0,0,53184,1313,17406,620
+210,0,0,0,61776,0,5194,45240
+207,0,0,0,61488,0,12520,28689
