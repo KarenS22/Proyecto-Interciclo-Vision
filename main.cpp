@@ -220,7 +220,7 @@ int main(int argc, char* argv[]) {
     
     const vector<string> & seriesUID = nameGenerator->GetSeriesUIDs();
     if(seriesUID.empty()) {
-        cerr << "❌ No se encontraron series DICOM" << endl;
+        cerr << "No se encontraron series DICOM" << endl;
         return -1;
     }
     
@@ -231,7 +231,7 @@ int main(int argc, char* argv[]) {
     try {
         reader->Update();
     } catch(itk::ExceptionObject & ex) {
-        cerr << "❌ Error: " << ex << endl;
+        cerr << "Error: " << ex << endl;
         return -1;
     }
     
@@ -239,8 +239,8 @@ int main(int argc, char* argv[]) {
     InputImageType::RegionType region = image3D->GetLargestPossibleRegion();
     InputImageType::SizeType size = region.GetSize();
     
-    cout << "  ✓ Archivos: " << fileNames.size() << endl;
-    cout << "  ✓ Dimensiones: " << size[0] << " x " << size[1] << " x " << size[2] << endl;
+    cout << "Archivos: " << fileNames.size() << endl;
+    cout << "Dimensiones: " << size[0] << " x " << size[1] << " x " << size[2] << endl;
     
     // ==========================================================
     // FASE 1: SELECCIÓN INTERACTIVA DE SLICE (195-210)

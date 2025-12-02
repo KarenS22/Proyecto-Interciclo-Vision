@@ -136,8 +136,8 @@ ResultadoInterfaz interfazIntegrada(InputImageType::Pointer image3D, int minSlic
         putText(slice_color, sliceText, Point(20, 50), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(0, 255, 0), 3);
         
         // Preparar todas las técnicas
-        Mat t1 = prepararImagen(resultado.denoised_gaussian, "Gaussiano");
-        Mat t2 = prepararImagen(resultado.denoised_ia, "DnCNN (IA)");
+        Mat t1 = prepararImagen(resultado.denoised_gaussian, "Blur Gaussiano");
+        Mat t2 = prepararImagen(resultado.denoised_ia, "DnCNN Denoising");
         Mat t3 = prepararImagen(resultado.stretched, "Contrast Stretch");
         Mat t4 = prepararImagen(resultado.clahe_result, "CLAHE");
         Mat t5 = prepararImagen(resultado.suavizado, "Suavizado");
@@ -149,8 +149,8 @@ ResultadoInterfaz interfazIntegrada(InputImageType::Pointer image3D, int minSlic
         vector<string> textos_controles = {
             "[1] " + string(opciones.pulmones ? "[X]" : "[ ]") + " Pulmones",
             "[2] " + string(opciones.corazon ? "[X]" : "[ ]") + " Corazon",
-            "[3] " + string(opciones.tejidosBlandos ? "[X]" : "[ ]") + " Tejidos",
-            "[4] " + string(opciones.huesos ? "[X]" : "[ ]") + " Huesos",
+            // "[3] " + string(opciones.tejidosBlandos ? "[X]" : "[ ]") + " Tejidos",
+            "[3] " + string(opciones.huesos ? "[X]" : "[ ]") + " Huesos",
             "",
             "[S] Confirmar",
             "[ESC] Salir"
@@ -160,7 +160,7 @@ ResultadoInterfaz interfazIntegrada(InputImageType::Pointer image3D, int minSlic
         for(const auto& texto : textos_controles) {
             if(!texto.empty()) {
                 putText(panel_controles, texto, Point(10, yPos), 
-                        FONT_HERSHEY_SIMPLEX, 0.45, Scalar(255, 255, 255), 1);
+                        FONT_HERSHEY_SIMPLEX, 0.5, Scalar(255, 255, 255), 1);
             }
             yPos += 25;
         }
@@ -228,11 +228,11 @@ ResultadoInterfaz interfazIntegrada(InputImageType::Pointer image3D, int minSlic
                 opciones.corazon = !opciones.corazon;
                 cout << "Corazon: " << (opciones.corazon ? "ON" : "OFF") << endl;
             }
+            // else if(key == '3') {
+            //     opciones.tejidosBlandos = !opciones.tejidosBlandos;
+            //     cout << "Tejidos Blandos: " << (opciones.tejidosBlandos ? "ON" : "OFF") << endl;
+            // }
             else if(key == '3') {
-                opciones.tejidosBlandos = !opciones.tejidosBlandos;
-                cout << "Tejidos Blandos: " << (opciones.tejidosBlandos ? "ON" : "OFF") << endl;
-            }
-            else if(key == '4') {
                 opciones.huesos = !opciones.huesos;
                 cout << "Huesos: " << (opciones.huesos ? "ON" : "OFF") << endl;
             }
@@ -247,7 +247,7 @@ ResultadoInterfaz interfazIntegrada(InputImageType::Pointer image3D, int minSlic
                     cout << "Opciones seleccionadas:" << endl;
                     if(opciones.pulmones) cout << "  - Pulmones" << endl;
                     if(opciones.corazon) cout << "  - Corazon" << endl;
-                    if(opciones.tejidosBlandos) cout << "  - Tejidos Blandos" << endl;
+                    // if(opciones.tejidosBlandos) cout << "  - Tejidos Blandos" << endl;
                     if(opciones.huesos) cout << "  - Huesos" << endl;
                     return resultado;
                 } else {

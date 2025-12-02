@@ -5,30 +5,40 @@
 using namespace std;
 using namespace cv;
 
-
-// Variables globales nuevas solo para huesos (agrégalas arriba)
-int thHueso = 200;      // Empezamos alto porque el hueso brilla mucho
-int kOpenHueso = 3;     // Tu kernel de 3x3 estaba bien
-int ejeXH = 80;          // Reusamos estos sliders para la elipse
-int ejeYH = 60;          // Reusamos estos sliders para la elipse
+// Variables globales para trackbars
+int thHueso = 185;
+int kOpenHueso = 2;
+int cannyLow = 50;
+int cannyHigh = 150;
+int dilatIter = 4;
 
 cv::Mat pipelineHuesos(const cv::Mat& input) {
 
     // ----------- PASO 1: PRE-PROCESAMIENTO -----------
     cv::Mat blurred, original = input.clone();
-    GaussianBlur(input, blurred, cv::Size(3, 3), 0); 
-
+    GaussianBlur(input, blurred, cv::Size(3, 3), 0);
 
     // ----------- PASO 2: UMBRALIZACIÓN -----------
     cv::Mat binary;
-    threshold(input, binary, thHueso, 255, cv::THRESH_BINARY);
+    threshold(blurred, binary, thHueso, 255, cv::THRESH_BINARY);
 
+    // ----------- PASO 3: MORFOLOGÍA (OPENING) -----------
+    cv::Mat morphed;
+    cv::Mat kernel = getStructuringElement(cv::MORPH_RECT, cv::Size(kOpenHueso, kOpenHueso));
+    morphologyEx(binary, morphed, cv::MORPH_OPEN, kernel);
 
+    // ----------- PASO 4: DETECCIÓN DE BORDES (CANNY) -----------
+    cv::Mat edges;
+    Canny(morphed, edges, cannyLow, cannyHigh);
+
+    // ----------- PASO 5: DILATACIÓN -----------
+    cv::Mat resultado;
+    dilate(edges, resultado, kernel, cv::Point(-1, -1), dilatIter);
 
     // ==========================================================
-    // VISUALIZACIÓN (CANVAS)
+    // VISUALIZACIÓN (CANVAS - TU FORMATO)
     // ==========================================================
-    cv::Mat canvas(1 * input.rows, 3 * input.cols, CV_8UC3, cv::Scalar(20, 20, 20));
+    cv::Mat canvas(2 * input.rows, 3 * input.cols, CV_8UC3, cv::Scalar(20, 20, 20));
 
     auto put = [&](cv::Mat img, int f, int c, std::string titulo) {
         cv::Mat dst = canvas(cv::Rect(c * input.cols, f * input.rows, input.cols, input.rows));
@@ -40,13 +50,16 @@ cv::Mat pipelineHuesos(const cv::Mat& input) {
     };
 
     put(original, 0, 0, "Original");
-    put(blurred, 0, 1, "Gaussian Blur");
-    put(binary, 0, 2, "Umbralizacion");
+    put(blurred, 0, 1, "Blur Gauss");
+    put(binary, 0, 2, "Binary");
+    put(morphed, 1, 0, "Opening");
+    put(edges, 1, 1, "Canny");
+    put(resultado, 1, 2, "Mascara Huesos");
 
     namedWindow("Subplots Huesos", WINDOW_NORMAL);
     imshow("Subplots Huesos", canvas);
 
-    return binary; // Devolvemos la máscara sólida
+    return resultado;
 }
 
 // Función para el controlador (Trackbars)
@@ -58,13 +71,12 @@ void onHuesoTrackbar(int, void* userdata) {
 cv::Mat mostrarHuesosConSliders(cv::Mat img) {
     namedWindow("Parametros Huesos", WINDOW_NORMAL);
     
-    // Sliders específicos para huesos
+    // Trackbars para ajustar parámetros
     createTrackbar("Umbral Hueso", "Parametros Huesos", &thHueso, 255, onHuesoTrackbar, &img);
     createTrackbar("K Open", "Parametros Huesos", &kOpenHueso, 10, onHuesoTrackbar, &img);
-    
-    // Reusamos los de la elipse (así cortas la camilla igual que en pulmones)
-    createTrackbar("X ROI %", "Parametros Huesos", &ejeXH, 100, onHuesoTrackbar, &img);
-    createTrackbar("Y ROI %", "Parametros Huesos", &ejeYH, 100, onHuesoTrackbar, &img);
+    createTrackbar("Canny Low", "Parametros Huesos", &cannyLow, 255, onHuesoTrackbar, &img);
+    createTrackbar("Canny High", "Parametros Huesos", &cannyHigh, 255, onHuesoTrackbar, &img);
+    createTrackbar("Dilate Iter", "Parametros Huesos", &dilatIter, 10, onHuesoTrackbar, &img);
 
     pipelineHuesos(img); // Primera pasada
 

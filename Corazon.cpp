@@ -47,7 +47,7 @@ cv::Mat pipelineCorazon(const cv::Mat& input)
     // ==========================================================
     // SUBPLOTS: 2 FILAS x 3 COLUMNAS
     // ==========================================================
-    Mat canvas(2 * input.rows, 3 * input.cols, CV_8UC3, Scalar(20, 20, 20));
+    Mat canvas(2 * input.rows, 2 * input.cols, CV_8UC3, Scalar(20, 20, 20));
 
     auto put = [&](Mat img, int f, int c, string titulo)
     {
@@ -67,8 +67,8 @@ cv::Mat pipelineCorazon(const cv::Mat& input)
 
     put(original, 0, 0, "Original");
     put(binary,   0, 1, "Umbral");
-    put(maskROI,  0, 2, "Mascara ROI");
-    put(masked,   1, 0, "Corazon Final");
+    put(maskROI,  1, 0, "Mascara ROI");
+    put(masked,   1, 1, "Corazon Final");
 
     namedWindow("Subplots Corazon", WINDOW_NORMAL);
     imshow("Subplots Corazon", canvas);

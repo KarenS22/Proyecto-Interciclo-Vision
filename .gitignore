@@ -48,7 +48,6 @@ env/
 .venv/
 
 # Model weights
-*.pth
 *.pt
 *.onnx
 
