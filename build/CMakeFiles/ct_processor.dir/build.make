@@ -128,19 +128,19 @@ CMakeFiles/ct_processor.dir/Operaciones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ct_processor.dir/Operaciones.cpp.s"
 	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/proyecto_interciclo/Operaciones.cpp -o CMakeFiles/ct_processor.dir/Operaciones.cpp.s
 
-CMakeFiles/ct_processor.dir/Interfaz.cpp.o: CMakeFiles/ct_processor.dir/flags.make
-CMakeFiles/ct_processor.dir/Interfaz.cpp.o: /home/karen/proyecto_interciclo/Interfaz.cpp
-CMakeFiles/ct_processor.dir/Interfaz.cpp.o: CMakeFiles/ct_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karen/proyecto_interciclo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ct_processor.dir/Interfaz.cpp.o"
-	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ct_processor.dir/Interfaz.cpp.o -MF CMakeFiles/ct_processor.dir/Interfaz.cpp.o.d -o CMakeFiles/ct_processor.dir/Interfaz.cpp.o -c /home/karen/proyecto_interciclo/Interfaz.cpp
+CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o: CMakeFiles/ct_processor.dir/flags.make
+CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o: /home/karen/proyecto_interciclo/InterfazIntegrada.cpp
+CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o: CMakeFiles/ct_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karen/proyecto_interciclo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o -MF CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o.d -o CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o -c /home/karen/proyecto_interciclo/InterfazIntegrada.cpp
 
-CMakeFiles/ct_processor.dir/Interfaz.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ct_processor.dir/Interfaz.cpp.i"
-	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/proyecto_interciclo/Interfaz.cpp > CMakeFiles/ct_processor.dir/Interfaz.cpp.i
+CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.i"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/proyecto_interciclo/InterfazIntegrada.cpp > CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.i
 
-CMakeFiles/ct_processor.dir/Interfaz.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ct_processor.dir/Interfaz.cpp.s"
-	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/proyecto_interciclo/Interfaz.cpp -o CMakeFiles/ct_processor.dir/Interfaz.cpp.s
+CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.s"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/proyecto_interciclo/InterfazIntegrada.cpp -o CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.s
 
 CMakeFiles/ct_processor.dir/Pulmones.cpp.o: CMakeFiles/ct_processor.dir/flags.make
 CMakeFiles/ct_processor.dir/Pulmones.cpp.o: /home/karen/proyecto_interciclo/Pulmones.cpp
@@ -156,14 +156,44 @@ CMakeFiles/ct_processor.dir/Pulmones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ct_processor.dir/Pulmones.cpp.s"
 	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/proyecto_interciclo/Pulmones.cpp -o CMakeFiles/ct_processor.dir/Pulmones.cpp.s
 
+CMakeFiles/ct_processor.dir/Huesos.cpp.o: CMakeFiles/ct_processor.dir/flags.make
+CMakeFiles/ct_processor.dir/Huesos.cpp.o: /home/karen/proyecto_interciclo/Huesos.cpp
+CMakeFiles/ct_processor.dir/Huesos.cpp.o: CMakeFiles/ct_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karen/proyecto_interciclo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ct_processor.dir/Huesos.cpp.o"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ct_processor.dir/Huesos.cpp.o -MF CMakeFiles/ct_processor.dir/Huesos.cpp.o.d -o CMakeFiles/ct_processor.dir/Huesos.cpp.o -c /home/karen/proyecto_interciclo/Huesos.cpp
+
+CMakeFiles/ct_processor.dir/Huesos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ct_processor.dir/Huesos.cpp.i"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/proyecto_interciclo/Huesos.cpp > CMakeFiles/ct_processor.dir/Huesos.cpp.i
+
+CMakeFiles/ct_processor.dir/Huesos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ct_processor.dir/Huesos.cpp.s"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/proyecto_interciclo/Huesos.cpp -o CMakeFiles/ct_processor.dir/Huesos.cpp.s
+
+CMakeFiles/ct_processor.dir/Corazon.cpp.o: CMakeFiles/ct_processor.dir/flags.make
+CMakeFiles/ct_processor.dir/Corazon.cpp.o: /home/karen/proyecto_interciclo/Corazon.cpp
+CMakeFiles/ct_processor.dir/Corazon.cpp.o: CMakeFiles/ct_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karen/proyecto_interciclo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ct_processor.dir/Corazon.cpp.o"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ct_processor.dir/Corazon.cpp.o -MF CMakeFiles/ct_processor.dir/Corazon.cpp.o.d -o CMakeFiles/ct_processor.dir/Corazon.cpp.o -c /home/karen/proyecto_interciclo/Corazon.cpp
+
+CMakeFiles/ct_processor.dir/Corazon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ct_processor.dir/Corazon.cpp.i"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/proyecto_interciclo/Corazon.cpp > CMakeFiles/ct_processor.dir/Corazon.cpp.i
+
+CMakeFiles/ct_processor.dir/Corazon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ct_processor.dir/Corazon.cpp.s"
+	g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/proyecto_interciclo/Corazon.cpp -o CMakeFiles/ct_processor.dir/Corazon.cpp.s
+
 # Object files for target ct_processor
 ct_processor_OBJECTS = \
 "CMakeFiles/ct_processor.dir/main.cpp.o" \
 "CMakeFiles/ct_processor.dir/Base64.cpp.o" \
 "CMakeFiles/ct_processor.dir/FlaskClient.cpp.o" \
 "CMakeFiles/ct_processor.dir/Operaciones.cpp.o" \
-"CMakeFiles/ct_processor.dir/Interfaz.cpp.o" \
-"CMakeFiles/ct_processor.dir/Pulmones.cpp.o"
+"CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o" \
+"CMakeFiles/ct_processor.dir/Pulmones.cpp.o" \
+"CMakeFiles/ct_processor.dir/Huesos.cpp.o" \
+"CMakeFiles/ct_processor.dir/Corazon.cpp.o"
 
 # External object files for target ct_processor
 ct_processor_EXTERNAL_OBJECTS =
@@ -172,8 +202,10 @@ ct_processor: CMakeFiles/ct_processor.dir/main.cpp.o
 ct_processor: CMakeFiles/ct_processor.dir/Base64.cpp.o
 ct_processor: CMakeFiles/ct_processor.dir/FlaskClient.cpp.o
 ct_processor: CMakeFiles/ct_processor.dir/Operaciones.cpp.o
-ct_processor: CMakeFiles/ct_processor.dir/Interfaz.cpp.o
+ct_processor: CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o
 ct_processor: CMakeFiles/ct_processor.dir/Pulmones.cpp.o
+ct_processor: CMakeFiles/ct_processor.dir/Huesos.cpp.o
+ct_processor: CMakeFiles/ct_processor.dir/Corazon.cpp.o
 ct_processor: CMakeFiles/ct_processor.dir/build.make
 ct_processor: CMakeFiles/ct_processor.dir/compiler_depend.ts
 ct_processor: /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_gapi.so.4.13.0
@@ -345,7 +377,7 @@ ct_processor: /home/karen/aplicaciones/Librerias/itk/install/lib/libitkv3p_netli
 ct_processor: /home/karen/aplicaciones/Librerias/itk/install/lib/libitkvcl-5.4.so.1
 ct_processor: /home/karen/aplicaciones/Librerias/itk/install/lib/libITKSmoothing-5.4.so.1
 ct_processor: CMakeFiles/ct_processor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karen/proyecto_interciclo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ct_processor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karen/proyecto_interciclo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ct_processor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ct_processor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -22,34 +22,34 @@ void esperarTeclaS(const string& mensaje) {
     cout << "Continuando..." << endl;
 }
 
-int seleccionarSlice(InputImageType::Pointer image3D, int minSlice, int maxSlice) {
-    int sliceActual = minSlice;
+SelectionResult seleccionarSlice(InputImageType::Pointer image3D, int minSlice, int maxSlice) {
+    SelectionResult result(minSlice);
+    OpcionesSegmentacion opciones;
 
-    const string windowName = "Seleccionar Slice (Trackbar)";
+    const string windowName = "Seleccionar Slice (Trackbar + Opciones)";
     namedWindow(windowName, WINDOW_NORMAL);
 
     cout << "\n========================================" << endl;
-    cout << "SELECCIÓN DE SLICE (Trackbar)" << endl;
+    cout << "SELECCIÓN DE SLICE (INTERACTIVA)" << endl;
     cout << "========================================" << endl;
     cout << "Controles:" << endl;
     cout << "  - Mover el trackbar: Navegar entre slices" << endl;
-    cout << "  - [S] : Seleccionar slice actual" << endl;
-    cout << "  - [ESC] : Salir" << endl;
+    cout << "  - 1/2/3/4 : Toggle Pulmones/Corazon/Tejidos/Huesos" << endl;
+    cout << "  - S : Seleccionar y confirmar" << endl;
+    cout << "  - ESC : Salir" << endl;
     cout << "Rango disponible: " << minSlice << " - " << maxSlice << endl;
 
-    // Trackbar callback variable
-    int trackPos = minSlice;
-
-    // Create trackbar
-    createTrackbar("Slice", windowName, &trackPos, maxSlice);
+    // trackbar position is relative to minSlice
+    int trackPos = 0;
+    int trackMax = maxSlice - minSlice;
+    createTrackbar("Slice", windowName, &trackPos, trackMax);
 
     while (true) {
-
-        sliceActual = trackPos;  
+        int sliceActual = minSlice + trackPos;
+        result.sliceNum = sliceActual;
 
         Mat slice = itkSliceToMat(image3D, sliceActual);
         Mat display;
-
         if (slice.cols > 1200) {
             double scale = 1200.0 / slice.cols;
             resize(slice, display, Size(), scale, scale);
@@ -57,32 +57,40 @@ int seleccionarSlice(InputImageType::Pointer image3D, int minSlice, int maxSlice
             display = slice.clone();
         }
 
-        // Convertir a color para mostrar texto
         Mat colorDisplay;
         cvtColor(display, colorDisplay, COLOR_GRAY2BGR);
 
-        // Instrucciones
-        putText(colorDisplay, "S: Seleccionar",
-                Point(10, colorDisplay.rows - 20),
-                FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 255, 255), 1);
+        // Mostrar estado de opciones
+        string opts = string("1:Pulm[") + (opciones.pulmones?"X":" ") + "] ";
+        opts += string("2:Cor[") + (opciones.corazon?"X":" ") + "] ";
+        opts += string("3:Tej[") + (opciones.tejidosBlandos?"X":" ") + "] ";
+        opts += string("4:Hue[") + (opciones.huesos?"X":" ") + "] ";
+        opts += "  S:Confirmar  ESC:Salir";
+
+        putText(colorDisplay, opts, Point(10, colorDisplay.rows - 10), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255,255,255), 1);
 
         imshow(windowName, colorDisplay);
-
-        // Ajuste dinámico del tamaño
         int winW = std::min(1400, colorDisplay.cols);
         int winH = std::min(900, colorDisplay.rows);
         resizeWindow(windowName, winW, winH);
 
-        int key = waitKey(30) & 0xFF; // ahora no bloquea
-
-        if (key == 's' || key == 'S') {
-            destroyWindow(windowName);
-            cout << "Slice seleccionado: #" << sliceActual << endl;
-            return sliceActual;
-        }
-        else if (key == 27) { // ESC
-            destroyWindow(windowName);
-            exit(0);
+        int key = waitKey(30) & 0xFF;
+        if (key != 255) {
+            if (key == '1') opciones.pulmones = !opciones.pulmones;
+            else if (key == '2') opciones.corazon = !opciones.corazon;
+            else if (key == '3') opciones.tejidosBlandos = !opciones.tejidosBlandos;
+            else if (key == '4') opciones.huesos = !opciones.huesos;
+            else if (key == 's' || key == 'S') {
+                result.opciones = opciones;
+                destroyWindow(windowName);
+                cout << "Slice seleccionado: #" << sliceActual << endl;
+                cout << "Opciones: Pulm=" << opciones.pulmones << " Cor=" << opciones.corazon << " Tej=" << opciones.tejidosBlandos << " Hue=" << opciones.huesos << endl;
+                return result;
+            }
+            else if (key == 27) {
+                destroyWindow(windowName);
+                exit(0);
+            }
         }
     }
 }

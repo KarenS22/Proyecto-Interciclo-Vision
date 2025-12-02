@@ -830,5 +830,7 @@ CMakeFiles/ct_processor.dir/main.cpp.o: \
  /home/karen/proyecto_interciclo/Operaciones.hpp \
  /home/karen/proyecto_interciclo/Tipos.hpp \
  /home/karen/proyecto_interciclo/FlaskClient.hpp \
- /home/karen/proyecto_interciclo/Interfaz.hpp \
- /home/karen/proyecto_interciclo/Pulmones.hpp
+ /home/karen/proyecto_interciclo/InterfazIntegrada.hpp \
+ /home/karen/proyecto_interciclo/Pulmones.hpp \
+ /home/karen/proyecto_interciclo/Huesos.hpp \
+ /home/karen/proyecto_interciclo/Corazon.hpp

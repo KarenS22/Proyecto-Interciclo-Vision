@@ -25,7 +25,15 @@ namespace itk {
 }
 
 // Función para seleccionar slice interactivamente (195-210)
-int seleccionarSlice(InputImageType::Pointer image3D, int minSlice, int maxSlice);
+// Resultado de la selección interactiva
+struct SelectionResult {
+    int sliceNum;
+    OpcionesSegmentacion opciones;
+    SelectionResult(int s = 0) : sliceNum(s) {}
+};
+
+// Función para seleccionar slice interactivamente y elegir tipos de segmentación
+SelectionResult seleccionarSlice(InputImageType::Pointer image3D, int minSlice, int maxSlice);
 
 // Función para mostrar denoising y esperar confirmación
 void mostrarDenoising(const cv::Mat& original, const cv::Mat& denoised_gaussian, const cv::Mat& denoised_ia);

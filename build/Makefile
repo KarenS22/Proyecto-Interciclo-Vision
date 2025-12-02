@@ -153,6 +153,30 @@ Base64.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Base64.cpp.s
 .PHONY : Base64.cpp.s
 
+Corazon.o: Corazon.cpp.o
+.PHONY : Corazon.o
+
+# target to build an object file
+Corazon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Corazon.cpp.o
+.PHONY : Corazon.cpp.o
+
+Corazon.i: Corazon.cpp.i
+.PHONY : Corazon.i
+
+# target to preprocess a source file
+Corazon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Corazon.cpp.i
+.PHONY : Corazon.cpp.i
+
+Corazon.s: Corazon.cpp.s
+.PHONY : Corazon.s
+
+# target to generate assembly for a file
+Corazon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Corazon.cpp.s
+.PHONY : Corazon.cpp.s
+
 FlaskClient.o: FlaskClient.cpp.o
 .PHONY : FlaskClient.o
 
@@ -177,29 +201,53 @@ FlaskClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/FlaskClient.cpp.s
 .PHONY : FlaskClient.cpp.s
 
-Interfaz.o: Interfaz.cpp.o
-.PHONY : Interfaz.o
+Huesos.o: Huesos.cpp.o
+.PHONY : Huesos.o
 
 # target to build an object file
-Interfaz.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Interfaz.cpp.o
-.PHONY : Interfaz.cpp.o
+Huesos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Huesos.cpp.o
+.PHONY : Huesos.cpp.o
 
-Interfaz.i: Interfaz.cpp.i
-.PHONY : Interfaz.i
+Huesos.i: Huesos.cpp.i
+.PHONY : Huesos.i
 
 # target to preprocess a source file
-Interfaz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Interfaz.cpp.i
-.PHONY : Interfaz.cpp.i
+Huesos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Huesos.cpp.i
+.PHONY : Huesos.cpp.i
 
-Interfaz.s: Interfaz.cpp.s
-.PHONY : Interfaz.s
+Huesos.s: Huesos.cpp.s
+.PHONY : Huesos.s
 
 # target to generate assembly for a file
-Interfaz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Interfaz.cpp.s
-.PHONY : Interfaz.cpp.s
+Huesos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Huesos.cpp.s
+.PHONY : Huesos.cpp.s
+
+InterfazIntegrada.o: InterfazIntegrada.cpp.o
+.PHONY : InterfazIntegrada.o
+
+# target to build an object file
+InterfazIntegrada.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o
+.PHONY : InterfazIntegrada.cpp.o
+
+InterfazIntegrada.i: InterfazIntegrada.cpp.i
+.PHONY : InterfazIntegrada.i
+
+# target to preprocess a source file
+InterfazIntegrada.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.i
+.PHONY : InterfazIntegrada.cpp.i
+
+InterfazIntegrada.s: InterfazIntegrada.cpp.s
+.PHONY : InterfazIntegrada.s
+
+# target to generate assembly for a file
+InterfazIntegrada.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.s
+.PHONY : InterfazIntegrada.cpp.s
 
 Operaciones.o: Operaciones.cpp.o
 .PHONY : Operaciones.o
@@ -285,12 +333,18 @@ help:
 	@echo "... Base64.o"
 	@echo "... Base64.i"
 	@echo "... Base64.s"
+	@echo "... Corazon.o"
+	@echo "... Corazon.i"
+	@echo "... Corazon.s"
 	@echo "... FlaskClient.o"
 	@echo "... FlaskClient.i"
 	@echo "... FlaskClient.s"
-	@echo "... Interfaz.o"
-	@echo "... Interfaz.i"
-	@echo "... Interfaz.s"
+	@echo "... Huesos.o"
+	@echo "... Huesos.i"
+	@echo "... Huesos.s"
+	@echo "... InterfazIntegrada.o"
+	@echo "... InterfazIntegrada.i"
+	@echo "... InterfazIntegrada.s"
 	@echo "... Operaciones.o"
 	@echo "... Operaciones.i"
 	@echo "... Operaciones.s"

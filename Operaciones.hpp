@@ -30,14 +30,6 @@ cv::Mat segmentarCorazon(const cv::Mat& input, const cv::Mat& maskPulmones);
 
 
 
-/**
- * Segmenta los huesos en una imagen CT
- * @param input Imagen en escala de grises (8 bits)
- * @return Máscara binaria con los huesos segmentados
- */
-cv::Mat segmentarHuesos(cv::Mat input);
-
-
 cv::Mat getHeartMask(const cv::Mat& not_air_mask, const cv::Mat& lungs_mask);
 
 cv::Mat segmentarTejidosBlandos(cv::Mat input);

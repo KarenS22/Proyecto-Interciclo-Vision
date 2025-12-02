@@ -9,8 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karen/proyecto_interciclo/Base64.cpp" "CMakeFiles/ct_processor.dir/Base64.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Base64.cpp.o.d"
+  "/home/karen/proyecto_interciclo/Corazon.cpp" "CMakeFiles/ct_processor.dir/Corazon.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Corazon.cpp.o.d"
   "/home/karen/proyecto_interciclo/FlaskClient.cpp" "CMakeFiles/ct_processor.dir/FlaskClient.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/FlaskClient.cpp.o.d"
-  "/home/karen/proyecto_interciclo/Interfaz.cpp" "CMakeFiles/ct_processor.dir/Interfaz.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Interfaz.cpp.o.d"
+  "/home/karen/proyecto_interciclo/Huesos.cpp" "CMakeFiles/ct_processor.dir/Huesos.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Huesos.cpp.o.d"
+  "/home/karen/proyecto_interciclo/InterfazIntegrada.cpp" "CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o.d"
   "/home/karen/proyecto_interciclo/Operaciones.cpp" "CMakeFiles/ct_processor.dir/Operaciones.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Operaciones.cpp.o.d"
   "/home/karen/proyecto_interciclo/Pulmones.cpp" "CMakeFiles/ct_processor.dir/Pulmones.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Pulmones.cpp.o.d"
   "/home/karen/proyecto_interciclo/main.cpp" "CMakeFiles/ct_processor.dir/main.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/main.cpp.o.d"

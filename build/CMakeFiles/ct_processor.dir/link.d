@@ -6,8 +6,10 @@ ct_processor: \
   CMakeFiles/ct_processor.dir/Base64.cpp.o \
   CMakeFiles/ct_processor.dir/FlaskClient.cpp.o \
   CMakeFiles/ct_processor.dir/Operaciones.cpp.o \
-  CMakeFiles/ct_processor.dir/Interfaz.cpp.o \
+  CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o \
   CMakeFiles/ct_processor.dir/Pulmones.cpp.o \
+  CMakeFiles/ct_processor.dir/Huesos.cpp.o \
+  CMakeFiles/ct_processor.dir/Corazon.cpp.o \
   /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_gapi.so.4.13.0 \
   /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_stitching.so.4.13.0 \
   /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_aruco.so.4.13.0 \
@@ -384,9 +386,13 @@ CMakeFiles/ct_processor.dir/FlaskClient.cpp.o:
 
 CMakeFiles/ct_processor.dir/Operaciones.cpp.o:
 
-CMakeFiles/ct_processor.dir/Interfaz.cpp.o:
+CMakeFiles/ct_processor.dir/InterfazIntegrada.cpp.o:
 
 CMakeFiles/ct_processor.dir/Pulmones.cpp.o:
+
+CMakeFiles/ct_processor.dir/Huesos.cpp.o:
+
+CMakeFiles/ct_processor.dir/Corazon.cpp.o:
 
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_gapi.so.4.13.0:
 

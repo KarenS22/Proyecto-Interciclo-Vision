@@ -13,8 +13,10 @@
 // Headers propios
 #include "Operaciones.hpp"
 #include "FlaskClient.hpp"
-#include "Interfaz.hpp"
+#include "InterfazIntegrada.hpp"
 #include "Pulmones.hpp"
+#include "Huesos.hpp"
+#include "Corazon.hpp"
 
 namespace fs = std::filesystem;
 using namespace std;
@@ -75,33 +77,98 @@ void on_trackbar_tejidos(int, void*) {
 void abrirCalibrador(Mat input) {
     g_img_suavizada = input.clone();
 
-    // Creamos las ventanas (redimensionables para visualizar con mayor tamaño)
+    // Ventanas redimensionables
     namedWindow("Calibrando Tejidos", WINDOW_NORMAL);
     namedWindow("Visualizacion Color", WINDOW_NORMAL);
 
-    // Creamos los Trackbars (Perillas)
+    // Trackbars para navegación y parámetros
+    static int view_mode = 0; // 0 = overlay, 1 = original, 2 = mask
     createTrackbar("Min Gray", "Calibrando Tejidos", &g_min_gray, 255, on_trackbar_tejidos);
     createTrackbar("Max Gray", "Calibrando Tejidos", &g_max_gray, 255, on_trackbar_tejidos);
     createTrackbar("Limpieza (Kernel)", "Calibrando Tejidos", &g_morph_size, 30, on_trackbar_tejidos);
+    createTrackbar("Vista", "Calibrando Tejidos", &view_mode, 2, nullptr);
 
-    // Llamada inicial para que se vea algo
-    on_trackbar_tejidos(0, 0);
-
-    // Ajustar tamaño de ventanas para mejor visibilidad
+    // Ajustar tamaño por defecto
     resizeWindow("Calibrando Tejidos", 1200, 700);
     resizeWindow("Visualizacion Color", 1200, 700);
 
-    cout << "\n🎚️ MODO CALIBRACIÓN ACTIVADO" << endl;
-    cout << "   - Ajusta 'Min Gray' y 'Max Gray' para atrapar el corazón." << endl;
-    cout << "   - Ajusta 'Limpieza' para borrar el ruido." << endl;
-    cout << "   - Presiona ESPACIO para guardar los valores y continuar." << endl;
+    cout << "\n🎚️ MODO CALIBRACIÓN (INTERACTIVO)" << endl;
+    cout << "   - Usa los sliders para ajustar Min/Max/Limpieza." << endl;
+    cout << "   - Presiona 1/2/3/4 para activar opciones de segmentación." << endl;
+    cout << "   - Presiona S para guardar y salir, ESC para cancelar." << endl;
 
-    // Pausar hasta que presiones tecla
-    waitKey(0);
+    OpcionesSegmentacion opciones; // mostrar estado en pantalla
 
-    cout << "✅ VALORES GUARDADOS: " << endl;
-    cout << "   inRange(" << g_min_gray << ", " << g_max_gray << ")" << endl;
-    cout << "   Kernel Size: " << g_morph_size << endl;
+    int key = 0;
+    while (true) {
+        if (g_img_suavizada.empty()) break;
+
+        // Generar máscara según sliders
+        Mat mask;
+        inRange(g_img_suavizada, Scalar(g_min_gray), Scalar(g_max_gray), mask);
+
+        int k_size = (g_morph_size < 1) ? 1 : g_morph_size;
+        Mat cleaned;
+        Mat kernel = getStructuringElement(MORPH_ELLIPSE, Size(k_size, k_size));
+        morphologyEx(mask, cleaned, MORPH_OPEN, kernel);
+        morphologyEx(cleaned, cleaned, MORPH_CLOSE, kernel);
+
+        // Mostrar máscara limpia en la ventana de calibrado
+        imshow("Calibrando Tejidos", cleaned);
+
+        // Preparar visualizacion color
+        Mat visualizacion;
+        cvtColor(g_img_suavizada, visualizacion, COLOR_GRAY2BGR);
+
+        Mat capaVerde(visualizacion.size(), CV_8UC3, Scalar(0, 255, 0));
+        if (view_mode == 0) {
+            // overlay
+            capaVerde.copyTo(visualizacion, cleaned);
+            addWeighted(visualizacion, 1.0, capaVerde, 0.3, 0, visualizacion);
+        } else if (view_mode == 1) {
+            // original (no overlay) - already in visualizacion
+        } else {
+            // mostrar la máscara como imagen coloreada
+            Mat colorMask;
+            cvtColor(cleaned, colorMask, COLOR_GRAY2BGR);
+            visualizacion = colorMask;
+        }
+
+        // Mostrar estados de opciones de segmentación en la parte inferior
+        string opts = string("1:Pulmones[") + (opciones.pulmones?"X":" ") + "]  ";
+        opts += string("2:Corazon[") + (opciones.corazon?"X":" ") + "]  ";
+        opts += string("3:Tejidos[") + (opciones.tejidosBlandos?"X":" ") + "]  ";
+        opts += string("4:Huesos[") + (opciones.huesos?"X":" ") + "]  ";
+        opts += "  S:Guardar  ESC:Salir";
+
+        putText(visualizacion, opts, Point(10, visualizacion.rows - 10), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255,255,255), 1);
+
+        imshow("Visualizacion Color", visualizacion);
+
+        // Asegurar tamaños constantes de ventana
+        resizeWindow("Calibrando Tejidos", 1200, 700);
+        resizeWindow("Visualizacion Color", 1200, 700);
+
+        key = waitKey(50) & 0xFF;
+        if (key != 255) {
+            if (key == '1') opciones.pulmones = !opciones.pulmones;
+            else if (key == '2') opciones.corazon = !opciones.corazon;
+            else if (key == '3') opciones.tejidosBlandos = !opciones.tejidosBlandos;
+            else if (key == '4') opciones.huesos = !opciones.huesos;
+            else if (key == 's' || key == 'S') {
+                cout << "✅ VALORES GUARDADOS: " << endl;
+                cout << "   inRange(" << g_min_gray << ", " << g_max_gray << ")" << endl;
+                cout << "   Kernel Size: " << g_morph_size << endl;
+                break;
+            }
+            else if (key == 27) { // ESC
+                cout << "Proceso cancelado por el usuario." << endl;
+                destroyWindow("Calibrando Tejidos");
+                destroyWindow("Visualizacion Color");
+                exit(0);
+            }
+        }
+    }
 
     destroyWindow("Calibrando Tejidos");
     destroyWindow("Visualizacion Color");
@@ -190,150 +257,42 @@ int main(int argc, char* argv[]) {
     cout << "SELECCIÓN DE SLICE (Rango: " << minSlice << "-" << maxSlice << ")" << endl;
     cout << "========================================" << endl;
     
-    // Selección interactiva (los slices se cargan sobre la marcha)
-    int sliceNum = seleccionarSlice(image3D, minSlice, maxSlice);
+    // Interfaz integrada: muestra slice con trackbar, técnicas a la derecha, controles abajo
+    ResultadoInterfaz resultado = interfazIntegrada(image3D, minSlice, maxSlice);
+    
+    int sliceNum = resultado.sliceNum;
+    OpcionesSegmentacion opciones = resultado.opciones;
     
     auto start_slice = chrono::high_resolution_clock::now();
     
     string sliceFolder = "output/slice_" + to_string(sliceNum);
     fs::create_directories(sliceFolder + "/comparaciones");
     
-    // Extraer el slice seleccionado
-    Mat original = itkSliceToMat(image3D, sliceNum);
-    imwrite(sliceFolder + "/01_original.png", original);
-    cout << "\n✓ Slice #" << sliceNum << " seleccionado y guardado" << endl;
-        
-    // ==========================================================
-    // FASE 2: DENOISING (DOS MÉTODOS EN PARALELO)
-    // ==========================================================
-    cout << "\n========================================" << endl;
-    cout << "FASE 2: REDUCCIÓN DE RUIDO" << endl;
-    cout << "========================================" << endl;
-    
-    // MÉTODO A: Denoising clásico (OpenCV)
-    cout << "Aplicando filtro Gaussiano..." << endl;
-    Mat denoised_gaussian;
-    GaussianBlur(original, denoised_gaussian, Size(5, 5), 1.5);
-    imwrite(sliceFolder + "/02a_denoised_gaussian.png", denoised_gaussian);
-    
-    // MÉTODO B: Red Neuronal (DnCNN via Flask)
-    cout << "Aplicando DnCNN (IA)..." << endl;
-    FlaskResponse flaskResp = enviarAFlask(original);
-    Mat denoised_ia = flaskResp.imagen;
-    imwrite(sliceFolder + "/02b_denoised_DnCNN.png", denoised_ia);
-    
-    if(flaskResp.success) {
-        cout << "✓ DnCNN completado" << endl;
-    }
-    
-    // COMPARACIÓN VISUAL INTERACTIVA
-    mostrarDenoising(original, denoised_gaussian, denoised_ia);
+    // Guardar imágenes de preprocesamiento (ya calculadas en la interfaz)
+    imwrite(sliceFolder + "/01_original.png", resultado.original);
+    imwrite(sliceFolder + "/02a_denoised_gaussian.png", resultado.denoised_gaussian);
+    imwrite(sliceFolder + "/02b_denoised_DnCNN.png", resultado.denoised_ia);
+    imwrite(sliceFolder + "/03_contrast_stretched.png", resultado.stretched);
+    imwrite(sliceFolder + "/05_clahe.png", resultado.clahe_result);
+    imwrite(sliceFolder + "/06_suavizado_segmentacion.png", resultado.suavizado);
     
     // Guardar comparación
     Mat comp_denoising;
-    vector<Mat> denoising_methods = {original, denoised_gaussian, denoised_ia};
+    vector<Mat> denoising_methods = {resultado.original, resultado.denoised_gaussian, resultado.denoised_ia};
     hconcat(denoising_methods, comp_denoising);
     imwrite(sliceFolder + "/comparaciones/denoising_todos.png", comp_denoising);
     
-    // ELEGIR EL MEJOR (en este caso, DnCNN)
-    Mat imagen_trabajo = denoised_ia.clone();
+    cout << "\n✓ Slice #" << sliceNum << " procesado y guardado" << endl;
         
     // ==========================================================
-    // FASE 3: PREPROCESAMIENTO (Mejorar contraste)
+    // FASE 2: SEGMENTACIÓN (Según opciones seleccionadas)
     // ==========================================================
     cout << "\n========================================" << endl;
-    cout << "FASE 3: PREPROCESAMIENTO" << endl;
+    cout << "FASE 2: SEGMENTACIÓN" << endl;
     cout << "========================================" << endl;
-        
-        // Contrast Stretching
-        Mat stretched;
-        double minVal, maxVal;
-        minMaxLoc(imagen_trabajo, &minVal, &maxVal);
-        imagen_trabajo.convertTo(stretched, CV_8U, 255.0/(maxVal - minVal), -minVal * 255.0/(maxVal - minVal));
-        imwrite(sliceFolder + "/03_contrast_stretched.png", stretched);
-        cout << "  ✓ Contrast Stretching" << endl;
-        
-        // CLAHE 
-        Mat clahe_result;
-        Ptr<CLAHE> clahe = createCLAHE(4.0, Size(8, 8));
-        clahe->apply(stretched, clahe_result);
-        imwrite(sliceFolder + "/05_clahe.png", clahe_result);
-        cout << "  ✓ CLAHE " << endl;
     
-        
-        // Usar CLAHE para continuar
-        imagen_trabajo = clahe_result.clone();
-        
-    // ==========================================================
-    // FASE 4: TÉCNICAS PARA FACILITAR SEGMENTACIÓN
-    // ==========================================================
-    cout << "\n========================================" << endl;
-    cout << "FASE 4: PREPARACIÓN PARA SEGMENTACIÓN" << endl;
-    cout << "========================================" << endl;
-        
-        // Suavizado suave (para evitar ruido en bordes)
-        Mat suavizado;
-        GaussianBlur(imagen_trabajo, suavizado, Size(3, 3), 0.7);
-        imwrite(sliceFolder + "/06_suavizado_segmentacion.png", suavizado);
-        cout << "  ✓ Suavizado ligero" << endl;
-        
-        // Detección de bordes (para análisis, no para segmentación directa)
-        // Mat edges;
-        // Mat temp_blur;
-        // GaussianBlur(denoised_ia, temp_blur, Size(5,5), 1.5); // Un blur extra ayuda a Canny
-        // Canny(temp_blur, edges, 30, 100); // Umbrales un poco más bajos
-        // imwrite(sliceFolder + "/07_canny_edges.png", edges);
-        // cout << "  ✓ Detección de bordes (Canny sobre imagen limpia)" << endl;
-        
-        // Binarización (Otsu)
-        // Mat binary;
-        // threshold(suavizado, binary, 0, 255, THRESH_BINARY + THRESH_OTSU);
-        // imwrite(sliceFolder + "/08_binary_otsu.png", binary);
-        // cout << "  ✓ Binarización (Otsu)" << endl;
-        
-        // // Operaciones morfológicas (limpiar)
-        // Mat kernel = getStructuringElement(MORPH_ELLIPSE, Size(5, 5));
-        // Mat morphed;
-        // morphologyEx(binary, morphed, MORPH_OPEN, kernel);
-        // imwrite(sliceFolder + "/09_morph_open.png", morphed);
-        // cout << "  ✓ Morfología (open)" << endl;
-        
-        // morphologyEx(morphed, morphed, MORPH_CLOSE, kernel);
-        // imwrite(sliceFolder + "/10_morph_close.png", morphed);
-        // cout << "  ✓ Morfología (close)" << endl;
-
-        // bitwise_not(morphed, morphed);
-        // imwrite(sliceFolder + "/10b_morph_inverted.png", morphed);
-        // cout << "  ✓ Inversión de máscara" << endl;
-        
-        // ==========================================================
-        // FASE 5: MANIPULACIÓN DIRECTA DE PÍXELES (Demostración)
-        // ==========================================================
-        // cout << "\n[FASE 5] MANIPULACIÓN DIRECTA DE PÍXELES" << endl;
-        // Mat manipulated = original.clone();
-        
-        // // Zona central: +30 brillo
-        // for(int y = 200; y < 312 && y < manipulated.rows; y++) {
-        //     for(int x = 200; x < 312 && x < manipulated.cols; x++) {
-        //         int valor = manipulated.at<uchar>(y, x);
-        //         manipulated.at<uchar>(y, x) = min(255, valor + 30);
-        //     }
-        // }
-        
-        // // Esquina: invertir
-        // for(int y = 0; y < 100 && y < manipulated.rows; y++) {
-        //     for(int x = 0; x < 100 && x < manipulated.cols; x++) {
-        //         manipulated.at<uchar>(y, x) = 255 - manipulated.at<uchar>(y, x);
-        //     }
-        // }
-        
-        // imwrite(sliceFolder + "/11_pixel_manipulation.png", manipulated);
-        // cout << "  ✓ Píxeles manipulados (demostración)" << endl;
-        
-    // ==========================================================
-    // FASE 5: SELECCIÓN DE TIPOS DE SEGMENTACIÓN
-    // ==========================================================
-    OpcionesSegmentacion opciones = seleccionarTiposSegmentacion();
+    // Usar la imagen suavizada para segmentación
+    Mat suavizado = resultado.suavizado.clone();
     
     // ==========================================================
     // FASE 6: SEGMENTACIÓN (Umbrales Hounsfield)
@@ -377,25 +336,25 @@ int main(int argc, char* argv[]) {
     
     if(opciones.huesos) {
         cout << "Segmentando huesos..." << endl;
-        bonesMask = segmentarHuesos(suavizado);
+        bonesMask = mostrarHuesosConSliders(suavizado);
         imwrite(sliceFolder + "/15_huesos_mask.png", bonesMask);
         areaBones = countNonZero(bonesMask);
         cout << "  ✓ Huesos segmentados (área=" << areaBones << " px)" << endl;
     }
         
     // ==========================================================
-    // FASE 7: IMAGEN FINAL CON ÁREAS RESALTADAS
+    // FASE 3: IMAGEN FINAL CON ÁREAS RESALTADAS
     // ==========================================================
     cout << "\n========================================" << endl;
-    cout << "FASE 7: RESULTADO FINAL" << endl;
+    cout << "FASE 3: RESULTADO FINAL" << endl;
     cout << "========================================" << endl;
     
     // Mostrar resultado interactivo
-    mostrarResultadoFinal(imagen_trabajo, lungsMask, heartMask, softTissueMask, bonesMask, opciones);
+    mostrarResultadoFinal(resultado.clahe_result, lungsMask, heartMask, softTissueMask, bonesMask, opciones);
     
     // Guardar resultado
     Mat colorResult;
-    cvtColor(imagen_trabajo, colorResult, COLOR_GRAY2BGR);
+    cvtColor(resultado.clahe_result, colorResult, COLOR_GRAY2BGR);
     
     if(opciones.pulmones && !lungsMask.empty()) {
         colorResult.setTo(Scalar(255, 100, 100), lungsMask);  // Azul
@@ -418,12 +377,17 @@ int main(int argc, char* argv[]) {
     
     // Guardar métricas
     ofstream metricsFile("output/metricas.csv", ios::app);
+    if(!metricsFile.is_open()) {
+        metricsFile.open("output/metricas.csv", ios::out);
+        metricsFile << "Slice,PSNR_dB,SSIM,Noise_STD,Area_Pulmones,Area_Corazon,Area_Tejidos,Area_Huesos,Tiempo_ms" << endl;
+    }
     metricsFile << sliceNum << ","
-                << (flaskResp.success ? flaskResp.psnr : 0) << ","
-                << (flaskResp.success ? flaskResp.ssim : 0) << ","
-                << (flaskResp.success ? flaskResp.noise_std : 0) << ","
+                << "0" << ","  // PSNR (se puede calcular después)
+                << "0" << ","  // SSIM
+                << "0" << ","  // Noise_STD
                 << areaLungs << ","
                 << areaHeart << ","
+                << areaSoftTissue << ","
                 << areaBones << ","
                 << duration.count() << endl;
     metricsFile.close();
