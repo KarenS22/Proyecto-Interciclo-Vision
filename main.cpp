@@ -14,6 +14,7 @@
 #include "Operaciones.hpp"
 #include "FlaskClient.hpp"
 #include "Interfaz.hpp"
+#include "Pulmones.hpp"
 
 namespace fs = std::filesystem;
 using namespace std;
@@ -347,7 +348,7 @@ int main(int argc, char* argv[]) {
     // Segmentar según opciones seleccionadas
     if(opciones.pulmones) {
         cout << "Segmentando pulmones..." << endl;
-        lungsMask = segmentarPulmones(suavizado);
+        lungsMask = mostrarPulmonesConSliders(suavizado);
         imwrite(sliceFolder + "/12_pulmones_mask.png", lungsMask);
         areaLungs = countNonZero(lungsMask);
         cout << "  ✓ Pulmones segmentados (área=" << areaLungs << " px)" << endl;

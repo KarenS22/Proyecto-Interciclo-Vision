@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ct_processor.dir/Interfaz.cpp.o.d"
   "CMakeFiles/ct_processor.dir/Operaciones.cpp.o"
   "CMakeFiles/ct_processor.dir/Operaciones.cpp.o.d"
+  "CMakeFiles/ct_processor.dir/Pulmones.cpp.o"
+  "CMakeFiles/ct_processor.dir/Pulmones.cpp.o.d"
   "CMakeFiles/ct_processor.dir/main.cpp.o"
   "CMakeFiles/ct_processor.dir/main.cpp.o.d"
   "ct_processor"

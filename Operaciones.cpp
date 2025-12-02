@@ -29,54 +29,6 @@ Mat itkSliceToMat(InputImageType::Pointer image3D, int sliceNumber) {
     return normalized;
 }
 
-Mat segmentarPulmones(Mat input) {
-    Mat binary;
-    // 1. Umbralización
-    threshold(input, binary, 50, 255, THRESH_BINARY_INV); 
-
-    // 2. Limpieza
-    Mat kernel = getStructuringElement(MORPH_ELLIPSE, Size(3, 3));
-    morphologyEx(binary, binary, MORPH_OPEN, kernel);
-    morphologyEx(binary, binary, MORPH_CLOSE, kernel);
-
-    // 3. FloodFill para eliminar fondo
-    Mat mascaraFondo = binary.clone();
-    // Rellenamos desde los 4 lados para asegurar
-    floodFill(mascaraFondo, Point(0, 0), Scalar(0));
-    floodFill(mascaraFondo, Point(binary.cols-1, binary.rows-1), Scalar(0));
-    floodFill(mascaraFondo, Point(0, binary.rows-1), Scalar(0));
-    floodFill(mascaraFondo, Point(binary.cols-1, 0), Scalar(0));
-    
-    // 4. Filtrado por Área Y POSICIÓN
-    Mat resultadoFinal = Mat::zeros(input.size(), CV_8UC1);
-    vector<vector<Point>> contours;
-    findContours(mascaraFondo, contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
-    
-    int alturaImagen = input.rows;
-
-    for (const auto& cnt : contours) {
-        double area = contourArea(cnt);
-        
-        // Calculamos el rectángulo que encierra el contorno
-        Rect bounds = boundingRect(cnt);
-        // Calculamos la posición vertical central
-        int centroY = bounds.y + bounds.height / 2;
-
-        // CONDICIONES:
-        // 1. Área grande (pulmón)
-        bool esGrande = (area > 2000);
-        
-        // 2. NO está en el fondo (intestinos)
-        // Rechazamos si su centro está en el 20% inferior de la imagen
-        bool noEsPiso = (centroY < (alturaImagen * 0.80));
-
-        if (esGrande && noEsPiso) {
-            drawContours(resultadoFinal, vector<vector<Point>>{cnt}, -1, 255, FILLED);
-        }
-    }
-
-    return resultadoFinal;
-}
 
 Mat segmentarHuesos(Mat input) {
     Mat blurred, binary, morphed;

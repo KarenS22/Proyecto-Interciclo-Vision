@@ -18,12 +18,7 @@
  */
 cv::Mat itkSliceToMat(InputImageType::Pointer image3D, int sliceNumber);
 
-/**
- * Segmenta los pulmones en una imagen CT
- * @param input Imagen en escala de grises (8 bits)
- * @return Máscara binaria con los pulmones segmentados
- */
-cv::Mat segmentarPulmones(cv::Mat input);
+
 
 /**
  * Segmenta el corazón en una imagen CT usando valores HU

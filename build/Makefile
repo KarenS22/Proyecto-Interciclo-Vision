@@ -225,6 +225,30 @@ Operaciones.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Operaciones.cpp.s
 .PHONY : Operaciones.cpp.s
 
+Pulmones.o: Pulmones.cpp.o
+.PHONY : Pulmones.o
+
+# target to build an object file
+Pulmones.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Pulmones.cpp.o
+.PHONY : Pulmones.cpp.o
+
+Pulmones.i: Pulmones.cpp.i
+.PHONY : Pulmones.i
+
+# target to preprocess a source file
+Pulmones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Pulmones.cpp.i
+.PHONY : Pulmones.cpp.i
+
+Pulmones.s: Pulmones.cpp.s
+.PHONY : Pulmones.s
+
+# target to generate assembly for a file
+Pulmones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_processor.dir/build.make CMakeFiles/ct_processor.dir/Pulmones.cpp.s
+.PHONY : Pulmones.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... Operaciones.o"
 	@echo "... Operaciones.i"
 	@echo "... Operaciones.s"
+	@echo "... Pulmones.o"
+	@echo "... Pulmones.i"
+	@echo "... Pulmones.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

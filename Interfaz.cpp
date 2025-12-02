@@ -23,69 +23,64 @@ void esperarTeclaS(const string& mensaje) {
 }
 
 int seleccionarSlice(InputImageType::Pointer image3D, int minSlice, int maxSlice) {
-    int sliceActual = 0;
-    int numSlices = maxSlice - minSlice + 1;
-    const string windowName = "Seleccionar Slice (195-210)";
+    int sliceActual = minSlice;
 
-    // Permitir redimensionar la ventana para mostrar imágenes más grandes
+    const string windowName = "Seleccionar Slice (Trackbar)";
     namedWindow(windowName, WINDOW_NORMAL);
-    
+
     cout << "\n========================================" << endl;
-    cout << "SELECCIÓN DE SLICE" << endl;
+    cout << "SELECCIÓN DE SLICE (Trackbar)" << endl;
     cout << "========================================" << endl;
     cout << "Controles:" << endl;
-    cout << "  [A/D] o [←/→] : Navegar entre slices" << endl;
-    cout << "  [S] : Seleccionar slice actual" << endl;
-    cout << "  [ESC] : Salir" << endl;
+    cout << "  - Mover el trackbar: Navegar entre slices" << endl;
+    cout << "  - [S] : Seleccionar slice actual" << endl;
+    cout << "  - [ESC] : Salir" << endl;
     cout << "Rango disponible: " << minSlice << " - " << maxSlice << endl;
-    
-    while(true) {
-        int sliceNum = minSlice + sliceActual;
-        Mat slice = itkSliceToMat(image3D, sliceNum);
+
+    // Trackbar callback variable
+    int trackPos = minSlice;
+
+    // Create trackbar
+    createTrackbar("Slice", windowName, &trackPos, maxSlice);
+
+    while (true) {
+
+        sliceActual = trackPos;  
+
+        Mat slice = itkSliceToMat(image3D, sliceActual);
         Mat display;
-        
-        // Redimensionar para visualización (si es muy grande)
-        // Permitimos mostrar imágenes más grandes (umbral aumentado)
-        if(slice.cols > 1200) {
+
+        if (slice.cols > 1200) {
             double scale = 1200.0 / slice.cols;
             resize(slice, display, Size(), scale, scale);
         } else {
             display = slice.clone();
         }
-        
+
         // Convertir a color para mostrar texto
         Mat colorDisplay;
         cvtColor(display, colorDisplay, COLOR_GRAY2BGR);
-        
-        // Agregar texto informativo
-        string texto = "Slice #" + to_string(sliceNum);
-        putText(colorDisplay, texto, Point(10, 30), 
-                FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 255, 0), 2);
-        
-        string instrucciones = "A/D: Navegar | S: Seleccionar";
-        putText(colorDisplay, instrucciones, Point(10, colorDisplay.rows - 20), 
+
+        // Instrucciones
+        putText(colorDisplay, "S: Seleccionar",
+                Point(10, colorDisplay.rows - 20),
                 FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 255, 255), 1);
-        
-    imshow(windowName, colorDisplay);
-    // Ajustar el tamaño de la ventana (no supera dimensiones de pantalla razonables)
-    int winW = std::min(1400, colorDisplay.cols);
-    int winH = std::min(900, colorDisplay.rows);
-    resizeWindow(windowName, winW, winH);
-        
-        int key = waitKey(0) & 0xFF;
-        
-        if(key == 'a' || key == 'A' || key == 81) { // A o flecha izquierda
-            sliceActual = (sliceActual - 1 + numSlices) % numSlices;
-        }
-        else if(key == 'd' || key == 'D' || key == 83) { // D o flecha derecha
-            sliceActual = (sliceActual + 1) % numSlices;
-        }
-        else if(key == 's' || key == 'S') {
+
+        imshow(windowName, colorDisplay);
+
+        // Ajuste dinámico del tamaño
+        int winW = std::min(1400, colorDisplay.cols);
+        int winH = std::min(900, colorDisplay.rows);
+        resizeWindow(windowName, winW, winH);
+
+        int key = waitKey(30) & 0xFF; // ahora no bloquea
+
+        if (key == 's' || key == 'S') {
             destroyWindow(windowName);
-            cout << "Slice seleccionado: #" << sliceNum << endl;
-            return sliceNum;
+            cout << "Slice seleccionado: #" << sliceActual << endl;
+            return sliceActual;
         }
-        else if(key == 27) { // ESC
+        else if (key == 27) { // ESC
             destroyWindow(windowName);
             exit(0);
         }
@@ -113,7 +108,7 @@ void mostrarDenoising(const Mat& original, const Mat& denoised_gaussian, const M
     // Agregar etiquetas
     putText(orig_color, "Original", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.8, Scalar(0, 255, 0), 2);
     putText(gauss_color, "Gaussiano", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.8, Scalar(0, 255, 0), 2);
-    putText(ia_color, "DnCNN (IA)", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.8, Scalar(0, 255, 0), 2);
+    putText(ia_color, "DnCNN ", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.8, Scalar(0, 255, 0), 2);
     
     // Concatenar horizontalmente
     Mat comparacion;

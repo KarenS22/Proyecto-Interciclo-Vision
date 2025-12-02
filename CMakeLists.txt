@@ -27,6 +27,7 @@ add_executable(ct_processor
     FlaskClient.cpp
     Operaciones.cpp
     Interfaz.cpp
+    Pulmones.cpp
 )
 
 # --- 5. LINKEAR TODO JUNTO (OpenCV + ITK + CURL) ---

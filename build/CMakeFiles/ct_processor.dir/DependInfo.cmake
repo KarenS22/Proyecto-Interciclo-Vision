@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karen/proyecto_interciclo/FlaskClient.cpp" "CMakeFiles/ct_processor.dir/FlaskClient.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/FlaskClient.cpp.o.d"
   "/home/karen/proyecto_interciclo/Interfaz.cpp" "CMakeFiles/ct_processor.dir/Interfaz.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Interfaz.cpp.o.d"
   "/home/karen/proyecto_interciclo/Operaciones.cpp" "CMakeFiles/ct_processor.dir/Operaciones.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Operaciones.cpp.o.d"
+  "/home/karen/proyecto_interciclo/Pulmones.cpp" "CMakeFiles/ct_processor.dir/Pulmones.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/Pulmones.cpp.o.d"
   "/home/karen/proyecto_interciclo/main.cpp" "CMakeFiles/ct_processor.dir/main.cpp.o" "gcc" "CMakeFiles/ct_processor.dir/main.cpp.o.d"
   "" "ct_processor" "gcc" "CMakeFiles/ct_processor.dir/link.d"
   )

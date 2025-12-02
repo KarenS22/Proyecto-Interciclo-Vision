@@ -33,6 +33,15 @@ void mostrarDenoising(const cv::Mat& original, const cv::Mat& denoised_gaussian,
 // Función para seleccionar tipos de segmentación
 OpcionesSegmentacion seleccionarTiposSegmentacion();
 
+void abrirPulmonesInteractivo(const cv::Mat& input);
+void abrirHuesosInteractivo(const cv::Mat& input);
+void abrirTejidosInteractivo(const cv::Mat& input);
+void abrirCorazonInteractivo(const cv::Mat& input, const cv::Mat& lungsMask);
+
+cv::Mat crearSubplot(const std::vector<cv::Mat>& imgs, int filas, int cols);
+
+
+
 // Función para mostrar imagen final con áreas resaltadas
 void mostrarResultadoFinal(const cv::Mat& imagenBase, 
                           const cv::Mat& lungsMask, 
