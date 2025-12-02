@@ -1,0 +1,152 @@
+###############################
+# C++ / CMake / Build Artifacts
+###############################
+
+# Build folders
+build/
+Build/
+build-*/
+cmake-build-*/
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+###############################
+# Python / Flask
+###############################
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+
+# Pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+###############################
+# Proyecto específico
+###############################
+
+# DICOM dataset
+dicom/
+dicoms/
+DICOM/
+DICOMs/
+*/DICOM/
+
+# Output pesado del proyecto
+output/
+outputs/
+results/
+resultados/
+salidas/
+
+# Métricas generadas
+metricas.csv
+*.csv
+
+# Imágenes generadas
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*_mask.png
+temp/
+temp_*/
+
+# Logs
+*.log
+log/
+logs/
+
+###############################
+# Visual Studio Code
+###############################
+
+.vscode/
+.vscode/*
+*.code-workspace
+
+###############################
+# OS / System files
+###############################
+
+# Linux
+*.swp
+*.swo
+*~
+.cache/
+Thumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+###############################
+# Other generic ignores
+###############################
+
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Backup files
+*.bak
+*.tmp
+
+# Ignore python server compiled cache
+server/__pycache__/
+server/*.pyc
+
+###############################
+# C++ Project specific folders
+###############################
+
+# Proyecto Interciclo Vision
+temp_slices/
+normalizado/
+normalizado_slices/
+comparativo/
+processed/
