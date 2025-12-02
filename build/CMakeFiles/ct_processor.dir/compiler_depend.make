@@ -147,7 +147,559 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o: /home/karen/proyecto_interciclo/Base64
   /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stdint.h
 
 CMakeFiles/ct_processor.dir/Corazon.cpp.o: /home/karen/proyecto_interciclo/Corazon.cpp \
-  /usr/include/stdc-predef.h
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/ITKCommonExport.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCommonEnums.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkConceptChecking.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkConfigure.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkContinuousIndex.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCovariantVector.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCovariantVector.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCreateObjectFunction.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDataObject.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDefaultPixelAccessor.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDefaultPixelAccessorFunctor.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkEventObject.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkExceptionObject.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkFixedArray.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkFixedArray.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkFloatTypes.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImage.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImage.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageBase.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageBase.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageBoundaryCondition.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageHelper.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegion.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegion.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImportImageContainer.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImportImageContainer.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIndent.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIndex.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIntTypes.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkLightObject.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMacro.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMakeFilled.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMakeUniqueForOverwrite.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMath.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMathDetail.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMatrix.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMatrix.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataDictionary.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataObjectBase.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhood.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhood.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhoodAccessorFunctor.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhoodAllocator.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraits.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsCovariantVectorPixel.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsFixedArrayPixel.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsPointPixel.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsVectorPixel.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObject.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObjectFactory.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObjectFactoryBase.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkOffset.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPixelTraits.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPoint.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPoint.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPrintHelper.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkProcessObject.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRealTimeInterval.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRealTimeStamp.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRegion.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSingletonMacro.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSize.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSliceIterator.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSmartPointer.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSpatialOrientation.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkThreadSupport.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkTimeStamp.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVector.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVector.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkWeakPointer.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkWin32Header.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vcl_compiler.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_algo_export.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_determinant.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_matrix_inverse.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_svd.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/dll.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_alloc.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_c_vector.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_complex.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_config.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_diag_matrix.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_error.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_export.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_fastops.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_math.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix_fixed.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix_fixed.hxx \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix_ref.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_numeric_traits.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_sse.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_transpose.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector_fixed.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector_ref.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vxl_config.h \
+  /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vxl_version.h \
+  /home/karen/aplicaciones/Librerias/opencv/build/opencv2/opencv_modules.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/include/opencv2/opencv.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/calib3d/include/opencv2/calib3d.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/affine.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/async.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/base.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/bufferpool.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/check.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda.inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda_types.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvdef.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/fast_math.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/hal/interface.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/mat.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/mat.inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/matx.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/matx.inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/neon_utils.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/operations.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/optim.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/ovx.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/persistence.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/saturate.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/traits.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/types.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utility.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logger.defines.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logger.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logtag.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/version.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/vsx_utils.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dict.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dnn.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dnn.inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/layer.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/version.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/features2d/include/opencv2/features2d.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/all_indices.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/allocator.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/any.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/autotuned_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/composite_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/config.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/defines.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/dist.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/flann_base.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/general.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/ground_truth.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/heap.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/index_testing.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kdtree_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kmeans_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/linear_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/logger.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/lsh_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/lsh_table.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/matrix.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/miniflann.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/nn_index.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/params.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/random.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/result_set.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/sampling.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/saving.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/timer.h \
+  /home/karen/aplicaciones/Librerias/opencv/modules/highgui/include/opencv2/highgui.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/imgproc/include/opencv2/imgproc.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/ml/include/opencv2/ml.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/ml/include/opencv2/ml/ml.inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/barcode.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/face.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/photo/include/opencv2/photo.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video/background_segm.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video/tracking.hpp \
+  /home/karen/aplicaciones/Librerias/opencv/modules/videoio/include/opencv2/videoio.hpp \
+  /home/karen/proyecto_interciclo/Corazon.hpp \
+  /home/karen/proyecto_interciclo/Tipos.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm/types.h \
+  /usr/include/assert.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/fenv.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fenv.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/sched/types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/linux/types.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include-fixed/syslimits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/algorithm \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/array \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/atomic \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/backward/auto_ptr.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/backward/binders.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bit \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/algorithmfwd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/align.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/alloc_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/allocated_ptr.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/allocator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/atomic_base.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/atomic_lockfree_defines.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_ios.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_ios.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_string.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_string.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/char_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/charconv.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/chrono.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/codecvt.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/concept_check.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/cpp_type_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/cxxabi_forced.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/deque.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/enable_special_members.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/erase_if.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception_defines.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception_ptr.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/functexcept.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/functional_hash.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/gslice.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/gslice_array.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hash_bytes.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hashtable.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hashtable_policy.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/indirect_array.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/invoke.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ios_base.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/istream.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_classes.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_classes.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_conv.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets_nonio.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets_nonio.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/localefwd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/mask_array.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/memoryfwd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/move.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/nested_exception.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/new_allocator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/node_handle.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ostream.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ostream_insert.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/parse_numbers.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/postypes.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/predefined_ops.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ptr_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/quoted_string.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/range_access.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/refwrap.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr_atomic.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr_base.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/slice_array.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/specfun.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/sstream.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/std_function.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/std_mutex.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/std_thread.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_algo.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_algobase.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_bvector.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_construct.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_deque.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_function.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_heap.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_iterator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_iterator_base_funcs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_iterator_base_types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_list.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_map.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_multimap.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_multiset.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_pair.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_queue.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_raw_storage_iter.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_relops.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_set.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_tempbuf.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_tree.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_uninitialized.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_vector.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stream_iterator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/streambuf.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/streambuf_iterator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/string_view.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stringfwd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/this_thread_sleep.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/uniform_int_dist.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unique_lock.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unique_ptr.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unordered_map.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/uses_allocator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/utility.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_after.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_array.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_array.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_before.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/vector.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cassert \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cctype \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cerrno \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cfenv \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cfloat \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/chrono \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/climits \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/clocale \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cmath \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/compare \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/complex \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstddef \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdio \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdlib \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstring \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ctime \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cwchar \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cwctype \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/debug/assertions.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/debug/debug.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/deque \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/exception \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/aligned_buffer.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/alloc_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/atomicity.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/concurrence.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/numeric_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/string_conversions.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/type_traits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/fenv.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/functional \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/initializer_list \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iomanip \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ios \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iosfwd \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iostream \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/istream \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iterator \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/limits \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/list \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/locale \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/map \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/math.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/memory \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/mutex \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/new \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ostream \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/execution_defs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/glue_algorithm_defs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/glue_memory_defs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/queue \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ratio \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/set \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/sstream \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/stdexcept \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/stdlib.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/streambuf \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/string \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/string_view \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/system_error \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/thread \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/bessel_function.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/beta_function.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/ell_integral.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/exp_integral.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/gamma.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/hypergeometric.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/legendre_function.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/modified_bessel_func.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/poly_hermite.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/poly_laguerre.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/riemann_zeta.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/special_function_util.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tuple \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/type_traits \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/typeinfo \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/unordered_map \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/utility \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/valarray \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/vector \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/xmmintrin.h
 
 CMakeFiles/ct_processor.dir/FlaskClient.cpp.o: /home/karen/proyecto_interciclo/FlaskClient.cpp \
   /home/karen/aplicaciones/Librerias/opencv/build/opencv2/opencv_modules.hpp \
@@ -4371,30 +4923,6 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_videostab.so.4.13.0:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCreateObjectFunction.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/gslice_array.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCommonEnums.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/emmintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/time_members.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_transpose.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/messages_members.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/functional:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/lib/libgstvideo-1.0.so.0:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/Cholesky:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/unordered_map:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/special_function_util.h:
@@ -4405,39 +4933,19 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/poly_hermite.tcc:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/ell_integral.tcc:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKMathematicalMorphology-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/lsh_table.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/set:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CwiseBinaryOp.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/queue:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/execution_defs.h:
 
 /usr/include/nlohmann/byte_container_with_subtype.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/optional:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/math.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/map:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/list:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKQuadEdgeMesh-5.4.so.1:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/limits:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkConfigure.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CoreIterators.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iterator:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/concurrence.h:
 
@@ -4449,25 +4957,27 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/Scaling.h:
 
-/usr/include/bits/wctype-wchar.h:
-
-/usr/lib/libdbus-1.so.3:
-
-/usr/include/bits/stdint-intn.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/climits:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMatrix.hxx:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_numeric.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMatrix.hxx:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ratio:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cfenv:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_fuzzy.so.4.13.0:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_saliency.so.4.13.0:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cassert:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_array.tcc:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/invoke.h:
-
 /home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/config.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/invoke.h:
 
 /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/fast_math.hpp:
 
@@ -4477,27 +4987,17 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/uniform_int_dist.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/gthr.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/system_error:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObjectFactoryBase.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/this_thread_sleep.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/streambuf_iterator.h:
 
-/usr/include/bits/waitflags.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iostream:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hashtable.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_tempbuf.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hashtable.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_set.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_raw_storage_iter.h:
-
-/usr/include/bits/types/error_t.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegionConstIterator.h:
 
@@ -4509,9 +5009,11 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_list.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitkopenjpeg-5.4.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/functional:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkWeakPointer.h:
+/usr/include/sys/single_threaded.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/messages_members.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_heap.h:
 
@@ -4521,13 +5023,7 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/specfun.h:
 
-/usr/lib/libQt6Gui.so.6:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/stdexcept:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/index_testing.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/quoted_string.h:
 
@@ -4537,17 +5033,11 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageFileReader.h:
 
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMultiThreaderBase.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/nested_exception.h:
 
 /usr/include/linux/stat.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/uses_allocator.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets_nonio.tcc:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMathDetail.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/basic_file.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKOptimizersv4-5.4.so.1:
 
@@ -4569,115 +5059,33 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/graphical_code_detector.hpp:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/gslice_array.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/set:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/lsh_table.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iostream:
+
+/usr/include/bits/waitflags.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCreateObjectFunction.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/gslice.h:
 
 /usr/include/bits/stdlib-float.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/StlIterators.h:
 
-/usr/include/nlohmann/detail/conversions/to_chars.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_fwd.h:
-
 /usr/include/bits/libc-header-start.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/SVD/BDCSVD.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/chrono.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/DenseCoeffsBase.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include-fixed/syslimits.h:
-
-/usr/lib/libpthread.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ostream:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include-fixed/limits.h:
-
-/usr/include/time.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/system_error:
-
-/usr/include/nlohmann/json_fwd.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/gamma.tcc:
-
-/usr/include/nlohmann/json.hpp:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/math.h:
-
-/usr/include/nlohmann/detail/string_utils.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/atomic:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMultiThreaderBase.h:
-
-/usr/include/nlohmann/detail/string_escape.hpp:
-
-/usr/include/nlohmann/detail/output/serializer.hpp:
-
-/usr/include/nlohmann/detail/output/output_adapters.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsFixedArrayPixel.h:
-
-/usr/include/nlohmann/detail/output/binary_writer.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_ios.tcc:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Dot.h:
-
-/usr/include/nlohmann/detail/meta/void_t.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/index_testing.h:
-
-/usr/include/nlohmann/detail/meta/is_sax.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/deque.tcc:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataObjectBase.h:
-
-/usr/include/nlohmann/detail/macro_unscope.hpp:
-
-/usr/include/nlohmann/detail/macro_scope.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/filesystem:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/defines.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
-
-/usr/include/nlohmann/detail/json_pointer.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/string_conversions.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/queue:
-
-/usr/include/nlohmann/detail/json_custom_base_class.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Solve.h:
-
-/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/LU/Determinant.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/version:
 
 /usr/lib/libb2.so.1:
 
 /usr/include/curl/easy.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/composite_index.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/lib/libtbb.so.12:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/valarray:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/chrono.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_map.h:
 
@@ -4691,21 +5099,15 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVariableSizeMatrix.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Householder/HouseholderSequence.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/DenseCoeffsBase.h:
 
-/usr/include/nlohmann/detail/input/json_sax.hpp:
+/usr/lib/libpthread.so.0:
 
-/usr/include/nlohmann/detail/input/binary_reader.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ostream:
 
-/usr/include/nlohmann/detail/exceptions.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include-fixed/limits.h:
 
-/usr/include/wchar.h:
-
-/usr/include/nlohmann/detail/conversions/to_json.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitkgdcmjpeg16-5.4.so.1:
-
-/usr/include/nlohmann/detail/abi_macros.hpp:
+/usr/include/time.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/stdlib.h:
 
@@ -4719,10 +5121,6 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_relops.h:
 
-/usr/lib/libc.so.6:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_ml.so.4.13.0:
-
 /usr/include/linux/types.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception.h:
@@ -4731,69 +5129,23 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vxl_version.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/beta_function.tcc:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObjectFactoryBase.h:
 
-/usr/include/linux/sched/types.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/gthr.h:
 
-/usr/include/curl/websockets.h:
+/usr/include/bits/wctype-wchar.h:
 
-/usr/include/nlohmann/detail/meta/identity_tag.hpp:
+/usr/lib/libdbus-1.so.3:
 
-/usr/include/curl/urlapi.h:
-
-/usr/include/curl/options.h:
-
-/usr/include/nlohmann/detail/iterators/primitive_iterator.hpp:
-
-/usr/include/bits/statx-generic.h:
-
-/usr/include/curl/multi.h:
-
-/usr/include/curl/header.h:
-
-/home/karen/proyecto_interciclo/Huesos.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/Rotation2D.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/utility:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video/tracking.hpp:
-
-/usr/include/curl/curlver.h:
-
-/usr/include/curl/curl.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets_nonio.h:
+/usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/types/struct_tm.h:
 
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/nlohmann/json.hpp:
+
 /usr/include/bits/timex.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unordered_map.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_error.h:
-
-/usr/include/bits/types/struct_osockaddr.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/InternalHeaderCheck.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKFFT-5.4.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ptr_traits.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageAlgorithm.hxx:
-
-/usr/include/bits/socket_type.h:
-
-/usr/include/bits/socket.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/bits/sockaddr.h:
-
-/usr/lib/libfreetype.so.6:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/atomic_lockfree_defines.h:
 
@@ -4805,27 +5157,9 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/Transform.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCovariantVector.h:
-
-/usr/include/bits/fp-logb.h:
-
-/usr/include/bits/mathcalls-macros.h:
-
-/usr/include/limits.h:
-
-/usr/include/nlohmann/detail/input/position_t.hpp:
-
 /usr/include/bits/uio_lim.h:
 
 /usr/include/bits/math-vector.h:
-
-/usr/include/bits/local_lim.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/range_access.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataObject.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/DenseBase.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsCovariantVectorPixel.h:
 
@@ -4865,27 +5199,235 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOVTK-5.4.so.1:
 
-/usr/include/asm/sockios.h:
-
 /usr/include/bits/time.h:
 
 /usr/include/asm/bitsperlong.h:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_wechat_qrcode.so.4.13.0:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/dist.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/locale:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CoreEvaluators.h:
-
-/usr/include/asm-generic/socket.h:
 
 /usr/include/asm-generic/posix_types.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itksys/Status.hxx:
 
+/home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video/background_segm.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h:
+
+/usr/include/sys/types.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/ForwardDeclarations.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video.hpp:
+
+/usr/include/sys/stat.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/stdexcept:
+
+/usr/lib/libQt6Gui.so.6:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr.h:
+
+/usr/lib/libjpeg.so.8:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/array:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/any:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Random.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/mmintrin.h:
+
+/usr/lib/libQt6DBus.so.6:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CommaInitializer.h:
+
+/usr/lib/libwebpdemux.so.2:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp:
+
+/usr/include/nlohmann/detail/conversions/to_chars.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/exp_integral.tcc:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Jacobi/InternalHeaderCheck.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/fenv.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitkhdf5_cpp-shared-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp:
+
+/usr/lib/libcap.so.2:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/Jacobi:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/Assert.h:
+
+/usr/include/nlohmann/detail/meta/detected.hpp:
+
+/usr/lib32/libxcb.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/sampling.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/random.h:
+
+/usr/lib/libcudnn.so.9:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_after.h:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudaarithm.so.4.13.0:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/imgproc/include/opencv2/imgproc.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Reverse.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/miniflann.hpp:
+
+/usr/lib/librt.a:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kmeans_index.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_queue.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iosfwd:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/ground_truth.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/general.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/flann_base.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOMeshBYU-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/face.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_wechat_qrcode.so.4.13.0:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/dist.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/defines.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/filesystem:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/saving.h:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_phase_unwrapping.so.4.13.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unique_lock.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/parse_numbers.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/any.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOLSM-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/features2d/include/opencv2/features2d.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/sstream:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_c_vector.h:
+
+/usr/lib/libharfbuzz.so.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/list.tcc:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/RotationBase.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkEventObject.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/layer.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/modified_bessel_func.tcc:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dnn.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageAlgorithm.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tuple:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/vsx_utils.hpp:
+
+/usr/include/bits/stdio_lim.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVariableLengthVector.hxx:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_objdetect.so.4.13.0:
+
+/usr/include/bits/setjmp.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logger.defines.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/functional_hash.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utility.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/atomic:
+
+/usr/include/nlohmann/detail/string_utils.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/types.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/arch/Geometry_SIMD.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOSpatialObjects-5.4.so.1:
+
+/usr/include/bits/xopen_lim.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/products/TriangularSolverVector.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/operations.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/saturate.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/mat.inl.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOBioRad-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/mat.hpp:
+
 /usr/include/errno.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/Serializer.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRealTimeInterval.h:
+
+/usr/include/bits/types/error_t.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/mm_malloc.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMathDetail.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/uses_allocator.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets_nonio.tcc:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMatrix.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/aligned_buffer.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/IntegralConstant.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitktiff-5.4.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/utility.h:
 
@@ -4895,21 +5437,25 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/include/bits/select.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/string_view.tcc:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_iterator_base_types.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/modified_bessel_func.tcc:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dnn.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageAlgorithm.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/erase_if.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/matx.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOStimulate-5.4.so.1:
 
 /usr/include/alloca.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOMeta-5.4.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/locale:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CoreEvaluators.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets_nonio.h:
+
+/usr/include/curl/curl.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdio:
 
@@ -4919,43 +5465,71 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/SVD:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_tree.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/pstl_config.h:
-
-/usr/include/bits/setjmp.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logger.defines.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/functional_hash.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_vector.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/RealSchur.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkExceptionObject.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann.hpp:
 
-/usr/include/sys/types.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIntTypes.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video/background_segm.hpp:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/all_indices.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/ForwardDeclarations.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/refwrap.h:
 
-/usr/lib/libharfbuzz.so.0:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_config.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/list.tcc:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/range_access.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/RotationBase.h:
+/usr/include/bits/local_lim.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataObject.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/DenseBase.h:
 
 /usr/include/locale.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/include/strings.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOMeshGifti-5.4.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/postypes.h:
 
+/usr/include/bits/posix2_lim.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkOffset.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_before.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/cpp_type_traits.h:
+
+/usr/include/pthread.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/move.h:
+
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudacodec.so.4.13.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unordered_map.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_error.h:
+
+/usr/include/bits/types/struct_osockaddr.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/InternalHeaderCheck.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKFFT-5.4.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ptr_traits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/libgcc_s.so:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImportImageContainer.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hash_bytes.h:
 
@@ -4968,8 +5542,6 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/MathFunctionsImpl.h:
 
 /usr/include/bits/types/timer_t.h:
-
-/usr/include/nlohmann/detail/meta/call_std/begin.hpp:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageConstIterator.h:
 
@@ -4989,13 +5561,13 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libitkgdcmjpeg12-5.4.so.1:
 
+/usr/include/wchar.h:
+
+/usr/include/nlohmann/detail/exceptions.hpp:
+
 /home/karen/proyecto_interciclo/Tipos.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_string.tcc:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/layer.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/arch/Default/Settings.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_string.h:
 
@@ -5003,57 +5575,35 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/string_view:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/glue_numeric_defs.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/version.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/predefined_ops.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/exception:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda.inl.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageScanlineIterator.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/clocale:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPromoteType.h:
-
-/home/karen/aplicaciones/Librerias/opencv/include/opencv2/opencv.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKKLMRegionGrowing-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvdef.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/Umeyama.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception_defines.h:
-
-/usr/lib/libjpeg.so.8:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/array:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/any:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Random.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitkpng-5.4.so.1:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Transpose.h:
+/usr/include/bits/unistd_ext.h:
 
 /usr/include/bits/types/sigset_t.h:
 
 /home/karen/proyecto_interciclo/Base64.hpp:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/version.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/mutex:
 
-/usr/include/bits/unistd_ext.h:
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitklbfgs-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/allocator.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/mathcalls-macros.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCovariantVector.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception_defines.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Transpose.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_construct.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/slice_array.h:
 
@@ -5065,11 +5615,17 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/include/bits/time64.h:
 
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPromoteType.h:
+
+/home/karen/aplicaciones/Librerias/opencv/include/opencv2/opencv.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKKLMRegionGrowing-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvdef.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/Umeyama.h:
+
 /usr/include/bits/byteswap.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_fastops.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
@@ -5079,7 +5635,11 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKniftiio-5.4.so.1:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKMarkovRandomFieldsClassifiers-5.4.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/codecvt.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/ml/include/opencv2/ml/ml.inl.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_bvector.h:
 
 /usr/include/bits/stdint-least.h:
 
@@ -5099,6 +5659,16 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/include/bits/struct_mutex.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/allocated_ptr.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/nn_index.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/version.hpp:
+
+/usr/include/features-time64.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSize.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/cxxabi_forced.h:
 
 /usr/lib32/librt.so.1:
@@ -5107,31 +5677,7 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPrintHelper.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/allocated_ptr.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/version.hpp:
-
-/usr/include/features-time64.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSize.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/nn_index.h:
-
 /usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/bits/posix2_lim.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkOffset.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/cpp_type_traits.h:
-
-/usr/include/pthread.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/move.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_before.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/streambuf:
 
@@ -5139,29 +5685,21 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/result_set.h:
+
+/usr/include/bits/long-double.h:
+
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageIOFactory.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Reshaped.h:
 
+/home/karen/aplicaciones/Librerias/opencv/modules/ml/include/opencv2/ml.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_quality.so.4.13.0:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_function.h:
 
-/usr/lib/libzstd.so.1:
-
-/usr/include/bits/sched.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/xmmintrin.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/features.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/mm_malloc.h:
-
-/usr/include/curl/mprintf.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdint:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/thread:
 
 /home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/traits.hpp:
 
@@ -5169,105 +5707,137 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CwiseNullaryOp.h:
 
-/usr/include/asm/posix_types_64.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/basic_ios.tcc:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/debug/assertions.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Dot.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/features2d/include/opencv2/features2d.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/enable_special_members.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/sstream:
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logger.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_c_vector.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_math.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_complex.h:
+
+/usr/include/bits/errno.h:
 
 /usr/include/bits/timesize.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitkpng-5.4.so.1:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/nlohmann/detail/meta/call_std/begin.hpp:
 
 /usr/include/bits/wchar.h:
 
 /usr/include/bits/waitstatus.h:
 
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOGIPL-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudabgsegm.so.4.13.0:
+
+/usr/lib/libmd4c.so.0:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/char_traits.h:
+
 /usr/include/bits/types/__sigset_t.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/MatrixBase.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/exp_integral.tcc:
-
-/usr/include/sys/time.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/SolveTriangular.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Jacobi/InternalHeaderCheck.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitkhdf5_cpp-shared-5.4.so.1:
-
-/usr/include/ctype.h:
-
-/usr/include/nlohmann/detail/string_concat.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/initializer_list:
 
 /usr/include/asm-generic/errno-base.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video.hpp:
-
-/usr/include/sys/stat.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/types.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/arch/Geometry_SIMD.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOSpatialObjects-5.4.so.1:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegion.hxx:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/numeric_traits.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/mmintrin.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_sse.h:
 
-/usr/include/bits/mathcalls.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/RealQZ.h:
 
-/usr/lib/libQt6DBus.so.6:
+/usr/include/asm/types.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CommaInitializer.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/unique_lock.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/parse_numbers.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/EmulateArray.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/any.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhoodAllocator.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOLSM-5.4.so.1:
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOImageBase-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/bufferpool.hpp:
+
+/usr/lib/Scrt1.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_classes.tcc:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/ComplexSchur.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/alloc_traits.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSymmetricSecondRankTensor.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cfloat:
+
+/usr/include/limits.h:
 
 /usr/include/asm/posix_types.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stdint.h:
 
+/usr/include/bits/floatn-common.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Stride.h:
+
 /usr/include/bits/types/mbstate_t.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOTransformMatlab-5.4.so.1:
 
-/usr/include/bits/xopen_lim.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/matx.inl.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/products/TriangularSolverVector.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/numeric:
 
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_videoio.so.4.13.0:
+/usr/lib/libGLX.so.0:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/ovx.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_iterator.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/face.hpp:
+/usr/include/bits/pthreadtypes.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp:
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkEventObject.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_matrix_inverse.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/MKL_support.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/operations.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/gamma.tcc:
 
-/usr/include/nlohmann/detail/meta/cpp_future.hpp:
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstring:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDefaultPixelAccessor.h:
+
+/usr/include/endian.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/backward/auto_ptr.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOPNG-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/ArrayBase.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_ops.h:
+
+/usr/include/bits/types/FILE.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
@@ -5283,25 +5853,13 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/bits/stdio_lim.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/streambuf.tcc:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/vsx_utils.hpp:
+/usr/include/bits/types/locale_t.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVariableLengthVector.hxx:
+/usr/include/sys/select.h:
 
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_objdetect.so.4.13.0:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkContinuousIndex.h:
-
-/usr/include/stdint.h:
-
-/home/karen/aplicaciones/Librerias/opencv/build/opencv2/opencv_modules.hpp:
-
-/usr/include/bits/typesizes.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr_base.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/functors/StlFunctors.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cerrno:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -5317,13 +5875,21 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/type_traits.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/debug/assertions.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/algorithmfwd.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/beta_function.tcc:
+
 /usr/include/bits/types/struct_FILE.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libitkgdcmMSFF-5.4.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/std_mutex.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ostream_insert.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ctime:
 
@@ -5333,137 +5899,97 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Map.h:
 
+/usr/lib/libzstd.so.1:
+
+/usr/include/bits/sched.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_dir.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImage.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/NoAlias.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dict.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOHDF5-5.4.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstddef:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitkv3p_netlib-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageSource.h:
+
+/usr/include/stdio.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix_ref.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/async.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/optim.hpp:
+
+/home/karen/proyecto_interciclo/Corazon.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImportImageContainer.hxx:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vcl_compiler.h:
+
+/usr/include/stdint.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkContinuousIndex.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/list:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKQuadEdgeMesh-5.4.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/new:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
 /usr/include/bits/stdint-uintn.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKMesh-5.4.so.1:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Cholesky/LLT.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/async.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/string_conversions.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/optim.hpp:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/home/karen/proyecto_interciclo/InterfazIntegrada.hpp:
-
-/usr/include/nlohmann/detail/conversions/from_json.hpp:
-
-/usr/include/nlohmann/detail/meta/call_std/end.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/AngleAxis.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vcl_compiler.h:
-
-/usr/include/endian.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/backward/auto_ptr.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDefaultPixelAccessor.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOPNG-5.4.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/debug/debug.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKRegionGrowing-5.4.so.1:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/codecvt:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataDictionary.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_queue.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iosfwd:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_ops.h:
-
-/usr/include/bits/types/FILE.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/ArrayBase.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix_ref.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/new:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/mutex:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/RealQZ.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_sse.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitklbfgs-5.4.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_uninitialized.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hashtable_policy.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/IndexedViewHelper.h:
-
-/usr/include/nlohmann/detail/hash.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObject.h:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_structured_light.so.4.13.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/bits/types/struct_iovec.h:
+/usr/include/nlohmann/detail/json_pointer.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/type_traits:
 
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObjectFactory.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVariableLengthVector.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Matrix.h:
+
 /usr/include/nlohmann/detail/input/parser.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/numeric:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/matx.inl.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdlib:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/neon_utils.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/algorithmfwd.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix.h:
-
-/home/karen/proyecto_interciclo/Huesos.cpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
-
-/usr/include/bits/floatn-common.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Stride.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stdarg.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/Assert.h:
-
-/usr/include/nlohmann/detail/meta/detected.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/codecvt.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_bvector.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/ml/include/opencv2/ml/ml.inl.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/localefwd.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stddef.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kdtree_index.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/stdarg.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception_ptr.h:
-
-/home/karen/proyecto_interciclo/Corazon.cpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/functors/NullaryFunctors.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkTimeStamp.h:
 
 /usr/lib32/liblzma.so.5:
 
@@ -5473,45 +5999,13 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itk_eigen.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_construct.h:
+/usr/include/asm/sockios.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cerrno:
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core.hpp:
 
-/usr/include/sys/select.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkCommonEnums.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOGIPL-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudabgsegm.so.4.13.0:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/calib3d/include/opencv2/calib3d.hpp:
-
-/usr/include/bits/locale.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr_atomic.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/check.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp:
-
-/usr/lib/libmd4c.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/char_traits.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tuple:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/mat.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/Serializer.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/mat.inl.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOBioRad-5.4.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/algorithm:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkConceptChecking.h:
 
@@ -5519,229 +6013,35 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/ProductEvaluators.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/algorithm:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/iterator:
 
-/usr/include/asm-generic/bitsperlong.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkConfigure.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRGBPixel.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CoreIterators.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/saturate.hpp:
+/home/karen/aplicaciones/Librerias/opencv/build/opencv2/opencv_modules.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOStimulate-5.4.so.1:
+/usr/include/bits/typesizes.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/matx.hpp:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsFixedArrayPixel.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/forward_list:
-
-/usr/lib/libGLX.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_iterator.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/neon_utils.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets.h:
-
-/usr/include/nlohmann/detail/input/lexer.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/persistence.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_alloc.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/DiagonalMatrix.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utility.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/enable_special_members.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/utils/logger.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_quality.so.4.13.0:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/ml/include/opencv2/ml.hpp:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstddef:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitkv3p_netlib-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dict.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOHDF5-5.4.so.1:
-
-/usr/include/stdio.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageSource.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/refwrap.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/all_indices.h:
-
-/usr/include/stdlib.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/allocator.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/saving.h:
-
-/usr/include/strings.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/ArithmeticSequence.h:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_phase_unwrapping.so.4.13.0:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/flann_base.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOMeshBYU-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/general.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/ground_truth.h:
-
-/usr/lib/librt.a:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kmeans_index.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/logger.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cwctype:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitkminc2-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/lsh_index.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/Householder:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/base.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkGDCMSeriesFileNames.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/legendre_function.tcc:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/matrix.h:
-
-/usr/lib/libcudnn.so.9:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/valarray_after.h:
-
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudaarithm.so.4.13.0:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/random.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIntTypes.h:
-
-/usr/include/bits/long-double.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/result_set.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/sampling.h:
-
-/usr/lib/libexpat.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda_types.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/timer.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/miniflann.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVariableLengthVector.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObjectFactory.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/imgproc/include/opencv2/imgproc.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Reverse.h:
-
-/usr/lib32/libxcb.so.1:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp:
-
-/usr/lib/libcap.so.2:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/Jacobi:
-
-/usr/include/asm/types.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/bufferpool.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/dnn/include/opencv2/dnn.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/EmulateArray.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhoodAllocator.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOImageBase-5.4.so.1:
-
-/usr/lib/libdl.so.2:
-
-/home/karen/proyecto_interciclo/FlaskClient.hpp:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/barcode.hpp:
-
-/usr/lib/Scrt1.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_classes.tcc:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Eigenvalues/ComplexSchur.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/alloc_traits.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSymmetricSecondRankTensor.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Matrix.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp:
-
-/usr/lib/libwebpdemux.so.2:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/atomic_base.h:
-
-/usr/include/asm/errno.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/float.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/streambuf.tcc:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/MathFunctions.h:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstring:
-
-/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp:
+/usr/include/nlohmann/detail/output/output_adapters.hpp:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDataObject.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOXML-5.4.so.1:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Fuzzy.h:
-
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOTIFF-5.4.so.1:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/composite_index.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/plugins/ReshapedMethods.inc:
+
+/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkDefaultPixelAccessorFunctor.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhoodAccessorFunctor.h:
+
+/usr/include/ctype.h:
 
 /usr/lib/libbz2.so.1.0:
 
@@ -5755,13 +6055,31 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOGDCM-5.4.so.1:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_dir.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_raw_storage_iter.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImage.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/NoAlias.h:
+/usr/include/bits/fenv.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/videoio/include/opencv2/videoio.hpp:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImage.hxx:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_alloc.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/persistence.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/DiagonalMatrix.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSmartPointer.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageBase.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/backward/binders.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector_fixed.h:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudafeatures2d.so.4.13.0:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -5777,23 +6095,41 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Householder/InternalHeaderCheck.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegion.hxx:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/timer.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/libgcc_s.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/memory:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImportImageContainer.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhood.hxx:
 
-/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
+/usr/lib/libexpat.so.1:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/plugins/ReshapedMethods.inc:
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda_types.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImportImageContainer.hxx:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/logger.h:
 
-/home/karen/proyecto_interciclo/Corazon.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cwctype:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitkminc2-5.4.so.1:
+
+/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+/usr/include/features.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/exception:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/cuda.inl.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/allocator.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkProcessObject.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRegion.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/std_mutex.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/ostream_insert.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkLightObject.h:
 
@@ -5811,11 +6147,27 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_intensity_transform.so.4.13.0:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/ell_integral.tcc:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKMathematicalMorphology-5.4.so.1:
+
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMakeUniqueForOverwrite.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageSeriesReader.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMatrix.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/dll.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_diag_matrix.h:
+
+/usr/include/linux/sched/types.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/functors/StlFunctors.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/deque.tcc:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataObjectBase.h:
 
 /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 
@@ -5823,75 +6175,93 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVectorImage.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/memory:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_transpose.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNeighborhood.hxx:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsPointPixel.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsVectorPixel.h:
-
-/usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPixelTraits.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPoint.hxx:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRealTimeInterval.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_matrix_inverse.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRegion.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/time_members.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSliceIterator.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageBase.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSmartPointer.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsPointPixel.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkSpatialOrientation.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkNumericTraitsVectorPixel.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_tree.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/pstl_config.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkObject.h:
+
+/usr/include/nlohmann/detail/hash.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_structured_light.so.4.13.0:
 
 /usr/lib32/libssh2.so.1:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkThreadSupport.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkTimeStamp.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_fastops.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/shared_ptr_atomic.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/check.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/debug/debug.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKRegionGrowing-5.4.so.1:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/codecvt:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkMetaDataDictionary.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include-fixed/syslimits.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/kdtree_index.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/exception_ptr.h:
+
+/home/karen/proyecto_interciclo/Corazon.cpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/functors/NullaryFunctors.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVector.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkVector.hxx:
 
-/usr/include/nlohmann/detail/value_t.hpp:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/params.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkWin32Header.h:
+/usr/include/sys/cdefs.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageIORegion.h:
 
 /usr/include/bits/getopt_core.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/stl_uninitialized.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/hashtable_policy.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/IndexedViewHelper.h:
+
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_algo_export.h:
 
-/usr/include/nlohmann/detail/meta/std_fs.hpp:
+/usr/include/nlohmann/detail/string_escape.hpp:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_svd.h:
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKPath-5.4.so.1:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/dll.h:
+/usr/include/fenv.h:
 
-/usr/include/bits/errno.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_complex.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_config.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_diag_matrix.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/string_view.tcc:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_export.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_math.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_matrix_fixed.h:
 
@@ -5899,9 +6269,9 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/include/sys/socket.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/functexcept.h:
-
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkArray.hxx:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/functexcept.h:
 
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_bioinspired.so.4.13.0:
 
@@ -5909,41 +6279,223 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_numeric_traits.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/backward/binders.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkRGBPixel.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector_fixed.h:
+/usr/include/asm-generic/bitsperlong.h:
 
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_cudafeatures2d.so.4.13.0:
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKMarkovRandomFieldsClassifiers-5.4.so.1:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/vnl_vector_ref.h:
 
-/home/karen/aplicaciones/Librerias/opencv/modules/videoio/include/opencv2/videoio.hpp:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/lsh_index.h:
 
-/usr/include/bits/fenv.h:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPoint.hxx:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ext/aligned_buffer.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/tr1/legendre_function.tcc:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/util/IntegralConstant.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/matrix.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libitktiff-5.4.so.1:
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkGDCMSeriesFileNames.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/lib/libITKPath-5.4.so.1:
+/home/karen/aplicaciones/Librerias/opencv/modules/calib3d/include/opencv2/calib3d.hpp:
 
-/usr/include/fenv.h:
+/usr/include/bits/locale.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/this_thread_sleep.h:
+/home/karen/aplicaciones/Librerias/opencv/modules/video/include/opencv2/video/tracking.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/ratio:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/utility:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cfenv:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/basic_file.h:
 
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_fuzzy.so.4.13.0:
+/usr/lib/libtbb.so.12:
 
-/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_saliency.so.4.13.0:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/valarray:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/fenv.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/ctype_base.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/thread:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/clocale:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageScanlineIterator.h:
+
+/usr/lib/libgstvideo-1.0.so.0:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/Cholesky:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkWeakPointer.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitkopenjpeg-5.4.so.1:
+
+/home/karen/proyecto_interciclo/InterfazIntegrada.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/curl/websockets.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/emmintrin.h:
+
+/usr/include/asm/errno.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/atomic_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/float.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/xmmintrin.h:
+
+/usr/lib/libdl.so.2:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/objdetect/include/opencv2/objdetect/barcode.hpp:
+
+/home/karen/proyecto_interciclo/FlaskClient.hpp:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/lib/libfreetype.so.6:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/functors/AssignmentFunctors.h:
+
+/usr/include/bits/socket.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageAlgorithm.hxx:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/types/struct_iovec.h:
+
+/usr/include/curl/curlver.h:
+
+/usr/include/curl/header.h:
+
+/home/karen/proyecto_interciclo/Huesos.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/Rotation2D.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cstdint:
+
+/usr/include/curl/mprintf.h:
+
+/usr/include/curl/multi.h:
+
+/usr/include/curl/options.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/predefined_ops.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/pstl/glue_numeric_defs.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/CwiseBinaryOp.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Fuzzy.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libITKIOXML-5.4.so.1:
+
+/usr/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/usr/include/curl/urlapi.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/optional:
+
+/usr/include/nlohmann/detail/abi_macros.hpp:
+
+/usr/include/nlohmann/detail/conversions/from_json.hpp:
+
+/usr/include/nlohmann/detail/conversions/to_json.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/lib/libitkgdcmjpeg16-5.4.so.1:
+
+/usr/include/nlohmann/detail/input/binary_reader.hpp:
+
+/usr/include/nlohmann/detail/input/json_sax.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/locale_facets.h:
+
+/usr/include/nlohmann/detail/input/lexer.hpp:
+
+/usr/include/nlohmann/detail/input/position_t.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPixelTraits.h:
+
+/usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/Solve.h:
+
+/usr/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+
+/usr/include/bits/statx-generic.h:
+
+/usr/include/nlohmann/detail/json_custom_base_class.hpp:
+
+/usr/include/nlohmann/detail/macro_scope.hpp:
+
+/usr/include/nlohmann/detail/macro_unscope.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/include/nlohmann/detail/meta/call_std/end.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Householder/HouseholderSequence.h:
+
+/usr/include/nlohmann/detail/meta/cpp_future.hpp:
+
+/usr/include/nlohmann/detail/meta/is_sax.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/vnl/algo/vnl_svd.h:
+
+/usr/include/nlohmann/detail/meta/std_fs.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/version:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/LU/Determinant.h:
+
+/usr/include/nlohmann/detail/meta/void_t.hpp:
+
+/usr/include/nlohmann/detail/output/binary_writer.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/ovx.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_videoio.so.4.13.0:
+
+/usr/include/nlohmann/detail/output/serializer.hpp:
+
+/usr/include/nlohmann/detail/string_concat.hpp:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/core/include/opencv2/core/base.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/Householder:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/flann/include/opencv2/flann/params.h:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkWin32Header.h:
+
+/usr/include/nlohmann/detail/value_t.hpp:
+
+/usr/lib/libc.so.6:
+
+/home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_ml.so.4.13.0:
+
+/usr/include/nlohmann/json_fwd.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/SolveTriangular.h:
+
+/usr/include/sys/time.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_fwd.h:
+
+/home/karen/aplicaciones/Librerias/opencv/modules/stitching/include/opencv2/stitching.hpp:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/MathFunctions.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/forward_list:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+
+/home/karen/proyecto_interciclo/Huesos.cpp:
 
 /home/karen/proyecto_interciclo/Operaciones.cpp:
 
@@ -6035,9 +6587,9 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/misc/Image.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
 /usr/include/nlohmann/detail/json_ref.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageScanlineConstIterator.h:
 
@@ -6057,9 +6609,9 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageSourceCommon.h:
 
-/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegion.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/compare:
+
+/home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkImageRegion.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIsNumber.h:
 
@@ -6195,9 +6747,9 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/NumTraits.h:
 
-/usr/include/nlohmann/detail/input/input_adapters.hpp:
-
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkIndex.h:
+
+/usr/include/nlohmann/detail/input/input_adapters.hpp:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/Core/PartialReduxEvaluator.h:
 
@@ -6413,9 +6965,9 @@ CMakeFiles/ct_processor.dir/Base64.cpp.o:
 
 /usr/include/bits/posix1_lim.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/new_allocator.h:
-
 /usr/include/bits/wordsize.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/new_allocator.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkeigen/Eigen/src/plugins/ArrayCwiseBinaryOps.inc:
 
@@ -6579,9 +7131,9 @@ ITKFactoryRegistration/itkImageIOFactoryRegisterManager.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libITKVideoCore-5.4.so.1:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_path.h:
-
 /home/karen/aplicaciones/Librerias/itk/install/include/ITK-5.4/itkPoint.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/bits/fs_path.h:
 
 /home/karen/aplicaciones/Librerias/itk/install/lib/libitkzlib-5.4.so.1.3.0.zlib-ng:
 
@@ -6673,9 +7225,9 @@ ITKFactoryRegistration/itkImageIOFactoryRegisterManager.h:
 
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_imgcodecs.so.4.13.0:
 
-/home/karen/proyecto_interciclo/FlaskClient.cpp:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.5.0/include/c++/cctype:
+
+/home/karen/proyecto_interciclo/FlaskClient.cpp:
 
 /home/karen/aplicaciones/Librerias/opencv/build/lib/libopencv_imgproc.so.4.13.0:
 

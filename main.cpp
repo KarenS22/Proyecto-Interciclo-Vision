@@ -315,12 +315,7 @@ int main(int argc, char* argv[]) {
     
     if(opciones.corazon) {
         cout << "Segmentando corazón..." << endl;
-        if(opciones.pulmones) {
-            heartMask = segmentarCorazon(suavizado, lungsMask);
-        } else {
-            Mat emptyMask = Mat::zeros(suavizado.size(), CV_8UC1);
-            heartMask = segmentarCorazon(suavizado, emptyMask);
-        }
+        heartMask = mostrarCorazonConSliders(suavizado);
         imwrite(sliceFolder + "/13_corazon_mask.png", heartMask);
         areaHeart = countNonZero(heartMask);
         cout << "  ✓ Corazón segmentado (área=" << areaHeart << " px)" << endl;

@@ -26,11 +26,11 @@ cv::Mat itkSliceToMat(InputImageType::Pointer image3D, int sliceNumber);
  * @param maskPulmones Máscara binaria de pulmones (0 = pulmón, 255 = fuera)
  * @return Máscara binaria con el corazón segmentado
  */
-cv::Mat segmentarCorazon(const cv::Mat& input, const cv::Mat& maskPulmones);
+// cv::Mat segmentarCorazon(const cv::Mat& input, const cv::Mat& maskPulmones);
 
 
 
-cv::Mat getHeartMask(const cv::Mat& not_air_mask, const cv::Mat& lungs_mask);
+// cv::Mat getHeartMask(const cv::Mat& not_air_mask, const cv::Mat& lungs_mask);
 
 cv::Mat segmentarTejidosBlandos(cv::Mat input);
 

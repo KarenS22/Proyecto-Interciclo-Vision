@@ -101,7 +101,7 @@ ResultadoInterfaz interfazIntegrada(InputImageType::Pointer image3D, int minSlic
         // CONSTRUIR INTERFAZ EN FORMATO MATRICIAL
         // ==========================================================
         
-        int imgSize = 400;
+        int imgSize = 350;
         int spacing = 5;
         Size displaySize(imgSize, imgSize);
         
